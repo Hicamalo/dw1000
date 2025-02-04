@@ -1,0 +1,10 @@
+../Drivers/dw1000/Src/frame.c:16:1:blink_frame_parser	5
+../Drivers/dw1000/Src/frame.c:49:1:ranging_init_frame_parser	7
+../Drivers/dw1000/Src/frame.c:95:1:poll_frame_parser	7
+../Drivers/dw1000/Src/frame.c:139:1:response_frame_parser	7
+../Drivers/dw1000/Src/frame.c:185:1:final_frame_parser	7
+../Drivers/dw1000/Src/frame.c:232:1:blink_frame_builder	3
+../Drivers/dw1000/Src/frame.c:252:1:ranging_init_msg_builder	3
+../Drivers/dw1000/Src/frame.c:277:1:poll_frame_builder	3
+../Drivers/dw1000/Src/frame.c:300:1:response_frame_builder	3
+../Drivers/dw1000/Src/frame.c:324:1:final_frame_builder	3

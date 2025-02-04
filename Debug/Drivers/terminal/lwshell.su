@@ -1,0 +1,5 @@
+../Drivers/terminal/lwshell.c:93:1:prv_parse_input	48	static
+../Drivers/terminal/lwshell.c:239:1:lwshell_init_ex	16	static
+../Drivers/terminal/lwshell.c:255:1:lwshell_set_output_fn_ex	16	static
+../Drivers/terminal/lwshell.c:275:1:lwshell_register_cmd_ex	24	static
+../Drivers/terminal/lwshell.c:324:1:lwshell_input_ex	40	static

@@ -1,0 +1,8 @@
+../Drivers/terminal/platform/terminal.c:18:1:terminal_print	8
+../Drivers/terminal/platform/terminal.c:46:1:terminal_scan	8
+../Drivers/terminal/platform/terminal.c:72:1:terminal_settings_init	1
+../Drivers/terminal/platform/terminal.c:82:1:terminal_function_output	1
+../Drivers/terminal/platform/terminal.c:90:1:terminal_echo	2
+../Drivers/terminal/platform/terminal.c:106:1:terminal_clear	1
+../Drivers/terminal/platform/terminal.c:117:1:terminal_test	1
+../Drivers/terminal/platform/terminal.c:127:1:terminal_init	1

@@ -1,0 +1,1 @@
+{"code":"V009","falseAlarm":false,"level":0,"message":"To use free version of PVS-Studio, source code files are required to start with a special comment.","positions":[{"file":"C:\\Users\\SoloWin\\STM32CubeIDE\\workspace_1.17.0\\test_dw1000\\Core\\Src\\examples\\ex_09a_bandwidth_power_ref_meas\\ex_09a_main.c","lines":[1]}]}

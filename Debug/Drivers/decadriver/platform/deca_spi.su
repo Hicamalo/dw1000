@@ -1,0 +1,4 @@
+../Drivers/decadriver/platform/deca_spi.c:33:5:openspi	4	static
+../Drivers/decadriver/platform/deca_spi.c:44:5:closespi	4	static
+../Drivers/decadriver/platform/deca_spi.c:57:5:writetospi	32	static
+../Drivers/decadriver/platform/deca_spi.c:89:5:readfromspi	32	static
