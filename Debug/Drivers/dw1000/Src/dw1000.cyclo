@@ -1,8 +1,8 @@
-../Drivers/dw1000/Src/dw1000.c:26:1:get_tx_timestamp_u64	2
-../Drivers/dw1000/Src/dw1000.c:43:1:get_rx_timestamp_u64	2
-../Drivers/dw1000/Src/dw1000.c:60:1:get_system_time_u64	2
-../Drivers/dw1000/Src/dw1000.c:77:1:initialise_dw1000	2
-../Drivers/dw1000/Src/dw1000.c:95:1:configure_dw1000	1
+../Drivers/dw1000/Src/dw1000.c:25:1:get_tx_timestamp_u64	2
+../Drivers/dw1000/Src/dw1000.c:42:1:get_rx_timestamp_u64	2
+../Drivers/dw1000/Src/dw1000.c:59:1:get_system_time_u64	2
+../Drivers/dw1000/Src/dw1000.c:76:1:initialise_dw1000	2
+../Drivers/dw1000/Src/dw1000.c:94:1:configure_dw1000	1
 ../Drivers/dw1000/Src/dw1000.c:115:1:uwb_receive_data	16
-../Drivers/dw1000/Src/dw1000.c:210:1:uwb_transmit_data	9
-../Drivers/dw1000/Src/dw1000.c:267:1:uwb_receive_data_after_transmit	5
+../Drivers/dw1000/Src/dw1000.c:220:1:uwb_transmit_data	8
+../Drivers/dw1000/Src/dw1000.c:277:1:uwb_receive_data_after_transmit	2

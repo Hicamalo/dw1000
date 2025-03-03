@@ -18,6 +18,7 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "i2c.h"
 #include "spi.h"
 #include "usart.h"
 #include "gpio.h"
@@ -30,16 +31,13 @@
 #include "dw1000.h"
 #include "examples_config.h"
 #include "fsm.h"
+#include "lcd.h"
 
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN PTD */
-#define TAG 0
-#define ANCHOR_1 1
-#define ANCHOR_2 2
 
-#define MODE ANCHOR_1
 /* USER CODE END PTD */
 
 /* Private define ------------------------------------------------------------*/
@@ -60,7 +58,6 @@
 
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
-
 /* USER CODE BEGIN PFP */
 
 /* USER CODE END PFP */
@@ -74,7 +71,9 @@ void SystemClock_Config(void);
   * @brief  The application entry point.
   * @retval int
   */
-int main(void) {
+int
+main(void) {
+
     /* USER CODE BEGIN 1 */
 
     /* USER CODE END 1 */
@@ -99,10 +98,8 @@ int main(void) {
     MX_GPIO_Init();
     MX_SPI1_Init();
     MX_USART1_UART_Init();
+    MX_I2C1_Init();
     /* USER CODE BEGIN 2 */
-
-    //uint8_t test_spi_result = test_spi_dw1000();
-    //uint8_t test_dev_id = test_check_id_dw1000();
 
     setup_DW1000RSTnIRQ(0);
 
@@ -110,6 +107,22 @@ int main(void) {
 
     initialise_dw1000();
     configure_dw1000();
+
+    i2c_lcd1602_init(TRUE, 2, 40, 16);
+
+    i2c_lcd1602_write_string("Test 1");
+    i2c_lcd1602_clear();
+
+    i2c_lcd1602_set_blink(TRUE);
+
+    i2c_lcd1602_write_string("TEst 2");
+    i2c_lcd1602_clear();
+    i2c_lcd1602_write_string("TeST 3");
+
+    while (1) {};
+
+    //    dwt_setfinegraintxseq(0);
+    //    dwt_setlnapamode(DWT_LNA_ENABLE | DWT_PA_ENABLE);
 
 #if MODE == TAG
     dwt_setrxantennadelay(TAG_RX_ANT_DLY_DTU);
@@ -119,6 +132,20 @@ int main(void) {
     dwt_settxantennadelay(ANCHOR_TX_ANT_DLY_DTU);
 #endif
 
+    HAL_Delay(1000);
+
+#if MODE == TAG
+    source_address = 0;
+    designation_address = 1;
+#elif MODE == ANCHOR_1
+    source_address = 1;
+#elif MODE == ANCHOR_2
+    source_address = 2;
+#elif MODE == ANCHOR_3
+    source_address = 3;
+#elif MODE == ANCHOR_4
+    source_address = 4;
+#endif
 
     /* USER CODE END 2 */
 
@@ -141,7 +168,8 @@ int main(void) {
   * @brief System Clock Configuration
   * @retval None
   */
-void SystemClock_Config(void) {
+void
+SystemClock_Config(void) {
     RCC_OscInitTypeDef RCC_OscInitStruct = {0};
     RCC_ClkInitTypeDef RCC_ClkInitStruct = {0};
 
@@ -175,23 +203,23 @@ void SystemClock_Config(void) {
 
 /* USER CODE BEGIN 4 */
 
+
 /* USER CODE END 4 */
 
 /**
   * @brief  This function is executed in case of error occurrence.
   * @retval None
   */
-void Error_Handler(void) {
+void
+Error_Handler(void) {
     /* USER CODE BEGIN Error_Handler_Debug */
     /* User can add his own implementation to report the HAL error return state */
     __disable_irq();
-    while (1) {
-    }
+    while (1) {}
     /* USER CODE END Error_Handler_Debug */
 }
 
 #ifdef  USE_FULL_ASSERT
-
 /**
   * @brief  Reports the name of the source file and the source line number
   *         where the assert_param error has occurred.
@@ -199,8 +227,9 @@ void Error_Handler(void) {
   * @param  line: assert_param error line source number
   * @retval None
   */
-void assert_failed(uint8_t *file, uint32_t line) {
-    /* USER CODE BEGIN 6 */
+void assert_failed(uint8_t *file, uint32_t line)
+{
+  /* USER CODE BEGIN 6 */
     /* User can add his own implementation to report the file name and line number,
        ex: printf("Wrong parameters value: file %s on line %d\r\n", file, line) */
     char buf[256];
@@ -208,9 +237,7 @@ void assert_failed(uint8_t *file, uint32_t line) {
     sprintf(buf, "Wrong parameters value: file %s on line %d\r\n", file, line);
 
     terminal_print(buf, strlen(buf));
-    while (1) {
-    };
-    /* USER CODE END 6 */
+    while (1) {};
+  /* USER CODE END 6 */
 }
-
 #endif /* USE_FULL_ASSERT */

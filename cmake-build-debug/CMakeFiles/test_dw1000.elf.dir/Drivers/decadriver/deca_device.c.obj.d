@@ -1,5 +1,5 @@
 CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/deca_device.c.obj: \
- C:\Users\SoloWin\STM32CubeIDE\workspace_1.17.0\test_dw1000\Drivers\decadriver\deca_device.c \
+ C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\decadriver\deca_device.c \
  C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/arm-none-eabi/include/assert.h \
  C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/arm-none-eabi/include/_ansi.h \
  C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/arm-none-eabi/include/newlib.h \
@@ -18,8 +18,8 @@ CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/deca_device.c.obj: \
  C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/arm-none-eabi/include/sys/lock.h \
  C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/arm-none-eabi/include/machine/stdlib.h \
  C:/PROGRA~2/ARMGNU~1/14EFD8~1.2RE/arm-none-eabi/include/alloca.h \
- C:\Users\SoloWin\STM32CubeIDE\workspace_1.17.0\test_dw1000\Drivers\decadriver\deca_types.h \
- C:\Users\SoloWin\STM32CubeIDE\workspace_1.17.0\test_dw1000\Drivers\decadriver\deca_param_types.h \
- C:\Users\SoloWin\STM32CubeIDE\workspace_1.17.0\test_dw1000\Drivers\decadriver\deca_regs.h \
- C:\Users\SoloWin\STM32CubeIDE\workspace_1.17.0\test_dw1000\Drivers\decadriver\deca_version.h \
- C:\Users\SoloWin\STM32CubeIDE\workspace_1.17.0\test_dw1000\Drivers\decadriver\deca_device_api.h
+ C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\decadriver\deca_types.h \
+ C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\decadriver\deca_param_types.h \
+ C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\decadriver\deca_regs.h \
+ C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\decadriver\deca_version.h \
+ C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\decadriver\deca_device_api.h

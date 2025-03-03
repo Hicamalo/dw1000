@@ -17,6 +17,15 @@
 #define TAG_TX_ANT_DLY_DTU 1
 #define TAG_RX_ANT_DLY_DTU 1
 
+#define TAG 0
+#define ANCHOR_1 1
+#define ANCHOR_2 2
+#define ANCHOR_3 3
+#define ANCHOR_4 4
+
+#define MODE ANCHOR_3
+
+
 #ifdef __cplusplus
 extern "C" {
 #endif /* __cplusplus */
@@ -37,15 +46,15 @@ uint8_t
 configure_dw1000(void);
 
 uint8_t
-uwb_receive_data(uint8_t rx_started, uint8_t *data, size_t *data_size, uint32_t rx_timeout);
+uwb_receive_data(uint8_t rx_started, uint8_t* data, size_t* data_size, uint32_t rx_delay, uint32_t rx_timeout);
 
 uint8_t
-uwb_transmit_data(uint8_t *data, size_t data_size, uint32_t tx_delay, uint32_t rx_delay,
+uwb_transmit_data(uint8_t* data, size_t data_size, uint32_t tx_delay, uint32_t rx_delay,
                   uint8_t response_expected);
 
 uint8_t
-uwb_receive_data_after_transmit(uint8_t *data_to_transfer, size_t data_to_transfer_size, uint8_t *data_received,
-                                size_t *data_received_size, uint32_t tx_delay, uint32_t rx_delay,
+uwb_receive_data_after_transmit(uint8_t* data_to_transfer, size_t data_to_transfer_size, uint8_t* data_received,
+                                size_t* data_received_size, uint32_t tx_delay, uint32_t rx_delay,
                                 uint32_t rx_timeout);
 
 #ifdef __cplusplus

@@ -105,6 +105,9 @@ extern poll_t global_poll_frame;
 extern response_t global_response_frame;
 extern final_t global_final_frame;
 
+extern uint8_t source_address;
+extern uint8_t designation_address;
+
 #ifdef __cplusplus
 extern "C" {
 #endif /* __cplusplus */

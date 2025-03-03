@@ -1,4 +1,8 @@
-../Core/Src/main.c:77:5:main	8	static
-../Core/Src/main.c:138:6:SystemClock_Config	72	static
-../Core/Src/main.c:178:6:Error_Handler	4	static,ignoring_inline_asm
-../Core/Src/main.c:196:6:assert_failed	272	static
+../Core/Src/main.c:77:1:LCD_SendInternal	32	static
+../Core/Src/main.c:103:1:LCD_SendCommand	16	static
+../Core/Src/main.c:108:1:LCD_SendData	16	static
+../Core/Src/main.c:113:1:LCD_Init	16	static
+../Core/Src/main.c:125:1:LCD_SendString	16	static
+../Core/Src/main.c:139:1:main	8	static
+../Core/Src/main.c:246:1:SystemClock_Config	72	static
+../Core/Src/main.c:288:1:Error_Handler	4	static,ignoring_inline_asm

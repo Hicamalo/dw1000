@@ -6,6 +6,9 @@ poll_t global_poll_frame;
 response_t global_response_frame;
 final_t global_final_frame;
 
+uint8_t source_address = 0;
+uint8_t designation_address = 0;
+
 /**
  * \brief Функция для преобразования массива данных в структуру Blink
  * \param data указатель на массив данных
@@ -74,6 +77,10 @@ ranging_init_frame_parser(const uint8_t *data, size_t size) {
         return FALSE;
     }
 
+    if (global_ranging_init_msg.destination_address != source_address) {
+        return FALSE;
+    }
+
     if (global_ranging_init_msg.function_code != RANGING_INIT_FUNCTION_CODE) {
         return FALSE;
     }
@@ -115,6 +122,10 @@ poll_frame_parser(const uint8_t *data, size_t size) {
     }
 
     if (global_poll_frame.pan_id != PAN_ID) {
+        return FALSE;
+    }
+
+    if (global_poll_frame.destination_address != source_address) {
         return FALSE;
     }
 
@@ -164,6 +175,10 @@ response_frame_parser(const uint8_t *data, size_t size) {
         return FALSE;
     }
 
+    if (global_response_frame.destination_address != source_address) {
+        return FALSE;
+    }
+
     if (global_response_frame.function_code != RESPONSE_FUNCTION_CODE) {
         return FALSE;
     }
@@ -208,6 +223,10 @@ final_frame_parser(const uint8_t *data, size_t size) {
     }
 
     if (global_final_frame.pan_id != PAN_ID) {
+        return FALSE;
+    }
+
+    if (global_final_frame.destination_address != source_address) {
         return FALSE;
     }
 

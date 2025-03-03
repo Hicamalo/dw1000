@@ -17,7 +17,6 @@ static dwt_config_t config =
                 (2048 + 1 + 64 - 64) /* Таймаут SFD (preamble length + 1 + SFD length - PAC size) */
         };
 
-
 /**
  * \brief Получение временной метки TX в 64-битной переменной. Эта функция предполагает, что длина временных меток равна 40 битам, как для TX, так и для RX!
  * \return 64-битное значение считанной временной метки.
@@ -108,11 +107,12 @@ configure_dw1000(void) {
  * \param rx_started режим RX уже включен? (TRUE: да, FALSE: нет)
  * \param data указатель на массив для приема данных
  * \param data_size  указатель на размер массива
+ * \param rx_delay задержка перед включением режима RX, если rx_started = FALSE (0 - без задержки)
  * \param rx_timeout таймаут ожидания приема (0 - без ожидания)
  * \return TRUE: данные получены успешно, FALSE: при приеме данных возникла ошибка
  */
 uint8_t
-uwb_receive_data(uint8_t rx_started, uint8_t *data, size_t *data_size, uint32_t rx_timeout) {
+uwb_receive_data(uint8_t rx_started, uint8_t *data, size_t *data_size, uint32_t rx_delay, uint32_t rx_timeout) {
     assert_param(data != NULL);
     assert_param(data_size != NULL);
 
@@ -121,9 +121,19 @@ uwb_receive_data(uint8_t rx_started, uint8_t *data, size_t *data_size, uint32_t 
     }
 
     if (rx_started == FALSE) {
-        if (dwt_rxenable(DWT_START_RX_IMMEDIATE) != DWT_SUCCESS) {
-            return FALSE;
-        };
+
+        if (rx_delay == 0) {
+            if (dwt_rxenable(DWT_START_RX_IMMEDIATE) != DWT_SUCCESS) {
+                return FALSE;
+            }
+        } else {
+            dwt_setdelayedtrxtime(rx_delay);
+
+            if (dwt_rxenable(DWT_START_RX_DELAYED) != DWT_SUCCESS) {
+                return FALSE;
+            }
+        }
+
     }
 
     uint8_t result = FALSE;
@@ -275,5 +285,5 @@ uwb_receive_data_after_transmit(uint8_t *data_to_transfer, size_t data_to_transf
         return FALSE;
     }
 
-    return uwb_receive_data(TRUE, data_received, data_received_size, rx_timeout);
+    return uwb_receive_data(TRUE, data_received, data_received_size, 0, rx_timeout);
 }

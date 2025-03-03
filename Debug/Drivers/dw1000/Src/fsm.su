@@ -1,2 +1,2 @@
-../Drivers/dw1000/Src/fsm.c:4:1:anchor_loop	288	static
-../Drivers/dw1000/Src/fsm.c:140:1:tag_loop	168	static
+../Drivers/dw1000/Src/fsm.c:4:1:anchor_loop	304	static
+../Drivers/dw1000/Src/fsm.c:173:1:tag_loop	232	static
