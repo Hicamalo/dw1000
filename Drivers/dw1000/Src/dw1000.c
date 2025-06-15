@@ -4,18 +4,41 @@
  * \brief Структура с настройками радиоканала
  */
 static dwt_config_t config =
-        {
-                2,                   /* Номер канала */
-                DWT_PRF_64M,         /* PRF - Pulse repetition frequency. */
-                DWT_PLEN_2048,       /* Длина преамбулы */
-                DWT_PAC64,           /* Preamble acquisition chunk size */
-                9,                   /* Код преамбулы TX */
-                9,                   /* Код преамбулы RX */
-                1,                   /* Использовать нестандартный SFD */
-                DWT_BR_110K,         /* Скорость передачи данных */
-                DWT_PHRMODE_STD,     /* PHY header mode */
-                (2048 + 1 + 64 - 64) /* Таймаут SFD (preamble length + 1 + SFD length - PAC size) */
-        };
+{
+    2,                   /* Номер канала */
+    DWT_PRF_64M,         /* PRF - Pulse repetition frequency. */
+    DWT_PLEN_2048,       /* Длина преамбулы */
+    DWT_PAC64,           /* Preamble acquisition chunk size */
+    9,                   /* Код преамбулы TX */
+    9,                   /* Код преамбулы RX */
+    1,                   /* Использовать нестандартный SFD */
+    DWT_BR_110K,         /* Скорость передачи данных */
+    DWT_PHRMODE_STD,     /* PHY header mode */
+    (2048 + 1 + 64 - 64) /* Таймаут SFD (preamble length + 1 + SFD length - PAC size) */
+};
+
+/**
+ * \brief Функция для сброса счетчика системного времени DW1000
+ * \return TRUE: конфигурирование успешно
+ */
+uint8_t
+reset_timebase(void) {
+    uint8_t ostrm_enable[2] = {0x90, 0x0C};
+
+    // Set ‘OSTRM’ to 1 and ‘WAIT’ to 33 in the EC_CTRL Register
+    dwt_writetodevice(EXT_SYNC_ID, EC_CTRL_OFFSET, 2, ostrm_enable);
+    dwt_setgpiodirection(GxM7,GxP7); //set the SYNC like input
+
+    HAL_GPIO_WritePin(SYNC_GPIO_PORT, SYNC_GPIO_PIN, GPIO_PIN_SET);
+    for (size_t i = 0; i < 10; i++) {};
+    HAL_GPIO_WritePin(SYNC_GPIO_PORT, SYNC_GPIO_PIN, GPIO_PIN_RESET);
+
+    uint8_t ostrm_disable[2] = {0, 0};
+
+    dwt_writetodevice(EXT_SYNC_ID, EC_CTRL_OFFSET, 2, ostrm_disable);
+
+    return TRUE;
+}
 
 /**
  * \brief Получение временной метки TX в 64-битной переменной. Эта функция предполагает, что длина временных меток равна 40 битам, как для TX, так и для RX!
@@ -112,7 +135,7 @@ configure_dw1000(void) {
  * \return TRUE: данные получены успешно, FALSE: при приеме данных возникла ошибка
  */
 uint8_t
-uwb_receive_data(uint8_t rx_started, uint8_t *data, size_t *data_size, uint32_t rx_delay, uint32_t rx_timeout) {
+uwb_receive_data(uint8_t rx_started, uint8_t* data, size_t* data_size, uint32_t rx_delay, uint32_t rx_timeout) {
     assert_param(data != NULL);
     assert_param(data_size != NULL);
 
@@ -138,8 +161,13 @@ uwb_receive_data(uint8_t rx_started, uint8_t *data, size_t *data_size, uint32_t 
 
     uint8_t result = FALSE;
     uint32_t status_reg = 0;
+    uint32_t try = 0;
 
     while (1) {
+        if (try > MAX_TRY) {
+            return FALSE;
+        }
+
         status_reg = dwt_read32bitreg(SYS_STATUS_ID);
 
         if (status_reg & SYS_STATUS_RXFCG) {
@@ -186,6 +214,8 @@ uwb_receive_data(uint8_t rx_started, uint8_t *data, size_t *data_size, uint32_t 
             /* Leading edge detection processing error */
             break;
         }
+
+        try++;
     }
 
     if (status_reg & SYS_STATUS_RXFCG) {
@@ -217,7 +247,7 @@ uwb_receive_data(uint8_t rx_started, uint8_t *data, size_t *data_size, uint32_t 
  * \return TRUE: данные получены успешно, FALSE: при приеме данных возникла ошибка
  */
 uint8_t
-uwb_transmit_data(uint8_t *data, size_t data_size, uint32_t tx_delay, uint32_t rx_delay,
+uwb_transmit_data(uint8_t* data, size_t data_size, uint32_t tx_delay, uint32_t rx_delay,
                   uint8_t response_expected) {
     assert_param(data != NULL);
 
@@ -253,8 +283,15 @@ uwb_transmit_data(uint8_t *data, size_t data_size, uint32_t tx_delay, uint32_t r
         result = TRUE;
     } while (0);
 
+    uint32_t try = 0;
+
     if (result == TRUE) {
-        while (!(dwt_read32bitreg(SYS_STATUS_ID) & SYS_STATUS_TXFRS)) {};
+        while (!(dwt_read32bitreg(SYS_STATUS_ID) & SYS_STATUS_TXFRS)) {
+            if (try > MAX_TRY) {
+                return FALSE;
+            }
+            try++;
+        };
 
         dwt_write32bitreg(SYS_STATUS_ID, SYS_STATUS_TXFRS);
     }
@@ -274,8 +311,8 @@ uwb_transmit_data(uint8_t *data, size_t data_size, uint32_t tx_delay, uint32_t r
  * \return
  */
 uint8_t
-uwb_receive_data_after_transmit(uint8_t *data_to_transfer, size_t data_to_transfer_size, uint8_t *data_received,
-                                size_t *data_received_size, uint32_t tx_delay, uint32_t rx_delay,
+uwb_receive_data_after_transmit(uint8_t* data_to_transfer, size_t data_to_transfer_size, uint8_t* data_received,
+                                size_t* data_received_size, uint32_t tx_delay, uint32_t rx_delay,
                                 uint32_t rx_timeout) {
     assert_param(data_to_transfer != NULL);
     assert_param(data_received != NULL);

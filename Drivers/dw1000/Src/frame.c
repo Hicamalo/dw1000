@@ -5,9 +5,11 @@ ranging_init_msg_t global_ranging_init_msg;
 poll_t global_poll_frame;
 response_t global_response_frame;
 final_t global_final_frame;
+dev_t global_dev_frame;
 
 uint8_t source_address = 0;
 uint8_t designation_address = 0;
+uint8_t dev_address = 0;
 
 /**
  * \brief Функция для преобразования массива данных в структуру Blink
@@ -16,7 +18,7 @@ uint8_t designation_address = 0;
  * \return TRUE: преобразование успешно, FALSE: преобразование неудачно
  */
 uint8_t
-blink_frame_parser(const uint8_t *data, size_t size) {
+blink_frame_parser(const uint8_t* data, size_t size) {
     assert_param(data != NULL);
 
     if (size != BLINK_FRAME_SIZE) {
@@ -49,7 +51,7 @@ blink_frame_parser(const uint8_t *data, size_t size) {
  * \return TRUE: преобразование успешно, FALSE: преобразование неудачно
  */
 uint8_t
-ranging_init_frame_parser(const uint8_t *data, size_t size) {
+ranging_init_frame_parser(const uint8_t* data, size_t size) {
     assert_param(data != NULL);
 
     if (size != RANGING_INIT_MSG_SIZE) {
@@ -99,7 +101,7 @@ ranging_init_frame_parser(const uint8_t *data, size_t size) {
  * \return TRUE: преобразование успешно, FALSE: преобразование неудачно
  */
 uint8_t
-poll_frame_parser(const uint8_t *data, size_t size) {
+poll_frame_parser(const uint8_t* data, size_t size) {
     assert_param(data != NULL);
 
     if (size != POLL_FRAME_SIZE) {
@@ -147,7 +149,7 @@ poll_frame_parser(const uint8_t *data, size_t size) {
  * \return TRUE: преобразование успешно, FALSE: преобразование неудачно
  */
 uint8_t
-response_frame_parser(const uint8_t *data, size_t size) {
+response_frame_parser(const uint8_t* data, size_t size) {
     assert_param(data != NULL);
 
     if (size != RESPONSE_FRAME_SIZE) {
@@ -197,7 +199,7 @@ response_frame_parser(const uint8_t *data, size_t size) {
  * \return TRUE: преобразование успешно, FALSE: преобразование неудачно
  */
 uint8_t
-final_frame_parser(const uint8_t *data, size_t size) {
+final_frame_parser(const uint8_t* data, size_t size) {
     assert_param(data != NULL);
 
     if (size != FINAL_FRAME_SIZE) {
@@ -241,6 +243,52 @@ final_frame_parser(const uint8_t *data, size_t size) {
     return TRUE;
 }
 
+uint8_t
+dev_frame_parser(const uint8_t* data, size_t size) {
+    assert_param(data != NULL);
+
+    if (size != DEV_FRAME_SIZE) {
+        return FALSE;
+    }
+
+    uint16_t data_crc = bytes_to_uint16(data + 13);
+    uint16_t calculated_crc = crc16_kermit(data, size - 2);
+
+    global_dev_frame.frame_control = swap_endian16(bytes_to_uint16(data));
+    global_dev_frame.sequence_number = data[2];
+    global_dev_frame.pan_id = swap_endian16(bytes_to_uint16(data + 3));
+    global_dev_frame.dev_address = bytes_to_uint16(data + 5);
+    global_dev_frame.tag_address = bytes_to_uint16(data + 7);
+    global_dev_frame.destination_address = bytes_to_uint16(data + 9);
+    global_dev_frame.source_address = bytes_to_uint64(data + 11);
+    global_dev_frame.function_code = bytes_to_uint64(data + 13);
+    global_dev_frame.beacon_mode = bytes_to_uint64(data + 14);
+
+    global_dev_frame.frame_checksum = swap_endian16(data_crc);
+
+    if (global_dev_frame.frame_control != DEV_FRAME_CONTROL) {
+        return FALSE;
+    }
+
+    if (global_dev_frame.pan_id != PAN_ID) {
+        return FALSE;
+    }
+
+    if (global_dev_frame.destination_address != source_address) {
+        return FALSE;
+    }
+
+    if (global_dev_frame.function_code != FINAL_FUNCTION_CODE) {
+        return FALSE;
+    }
+
+    if (global_dev_frame.frame_checksum != calculated_crc) {
+        return FALSE;
+    }
+
+    return TRUE;
+}
+
 /**
  * \brief Функция для преобразования структуры Blink в массив данных
  * \param data указатель на массив данных
@@ -248,7 +296,7 @@ final_frame_parser(const uint8_t *data, size_t size) {
  * \return TRUE: преобразование успешно
  */
 uint8_t
-blink_frame_builder(uint8_t *data, size_t *size) {
+blink_frame_builder(uint8_t* data, size_t* size) {
     assert_param(data != NULL);
     assert_param(size != NULL);
 
@@ -268,7 +316,7 @@ blink_frame_builder(uint8_t *data, size_t *size) {
  * \return TRUE: преобразование успешно
  */
 uint8_t
-ranging_init_msg_builder(uint8_t *data, size_t *size) {
+ranging_init_msg_builder(uint8_t* data, size_t* size) {
     assert_param(data != NULL);
     assert_param(size != NULL);
 
@@ -293,7 +341,7 @@ ranging_init_msg_builder(uint8_t *data, size_t *size) {
  * \return TRUE: преобразование успешно
  */
 uint8_t
-poll_frame_builder(uint8_t *data, size_t *size) {
+poll_frame_builder(uint8_t* data, size_t* size) {
     assert_param(data != NULL);
     assert_param(size != NULL);
 
@@ -316,7 +364,7 @@ poll_frame_builder(uint8_t *data, size_t *size) {
  * \return TRUE: преобразование успешно
  */
 uint8_t
-response_frame_builder(uint8_t *data, size_t *size) {
+response_frame_builder(uint8_t* data, size_t* size) {
     assert_param(data != NULL);
     assert_param(size != NULL);
 
@@ -340,7 +388,7 @@ response_frame_builder(uint8_t *data, size_t *size) {
  * \return TRUE: преобразование успешно
  */
 uint8_t
-final_frame_builder(uint8_t *data, size_t *size) {
+final_frame_builder(uint8_t* data, size_t* size) {
     assert_param(data != NULL);
     assert_param(size != NULL);
 
@@ -354,6 +402,26 @@ final_frame_builder(uint8_t *data, size_t *size) {
     uint64_to_bytes(global_final_frame.final_tx_time_minus_resp_rx_time, data + 18); /* 8 байт */
 
     *size = FINAL_FRAME_SIZE;
+
+    return TRUE;
+}
+
+uint8_t
+dev_frame_builder(const uint8_t* data, size_t size) {
+    assert_param(data != NULL);
+    assert_param(size != NULL);
+
+    uint16_to_bytes(swap_endian16(global_dev_frame.frame_control), data); /* 2 байта */
+    data[2] = global_dev_frame.sequence_number;                           /* 1 байт */
+    uint16_to_bytes(swap_endian16(global_dev_frame.pan_id), data + 3);    /* 2 байта */
+    uint16_to_bytes(global_dev_frame.dev_address, data + 5);              /* 2 байта */
+    uint16_to_bytes(global_dev_frame.tag_address, data + 7);              /* 2 байта */
+    uint16_to_bytes(global_dev_frame.destination_address, data + 9);      /* 2 байта */
+    uint16_to_bytes(global_dev_frame.source_address, data + 11);          /* 2 байта */
+    data[13] = global_dev_frame.function_code;                            /* 1 байт */
+    data[14] = global_dev_frame.beacon_mode;                              /* 1 байт */
+
+    *size = DEV_FRAME_SIZE;
 
     return TRUE;
 }

@@ -13,7 +13,7 @@
 #include "usart.h"
 
 // Максимальное количество входных символов в терминале
-#define MAX_TERMINAL_INPUT_BUFFER_SIZE (64)
+#define MAX_TERMINAL_INPUT_BUFFER_SIZE (255)
 
 // Красный цвет текста в терминале
 #define TERMINAL_RED_TEXT_COLOR        "\033[0;31m"
@@ -43,19 +43,22 @@ extern terminal_settings_t terminal_settings;
 // Входной буфер терминала
 extern char terminal_input_buffer[MAX_TERMINAL_INPUT_BUFFER_SIZE];
 
+extern volatile uint16_t terminal_input_buffer_size;
+extern volatile uint8_t terminal_rx_done;
+
 #ifdef __cplusplus
 extern "C" {
 #endif /* __cplusplus */
 
-terminal_driver_status_t terminal_print(uint8_t *str, uint16_t len);
+terminal_driver_status_t terminal_print(uint8_t* str, uint16_t len);
 
-terminal_driver_status_t terminal_scan(uint8_t *str, uint16_t max_len);
+terminal_driver_status_t terminal_scan(uint8_t* str, uint16_t max_len);
 
-long int terminal_echo(long int argc, char **argv);
+long int terminal_echo(long int argc, char** argv);
 
-long int terminal_clear(long int argc, char **argv);
+long int terminal_clear(long int argc, char** argv);
 
-long int terminal_test(long int argc, char **argv);
+long int terminal_test(long int argc, char** argv);
 
 void terminal_init(void);
 

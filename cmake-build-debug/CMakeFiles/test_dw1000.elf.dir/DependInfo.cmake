@@ -34,6 +34,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Core/Src/examples"
   "C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Drivers"
   "C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Drivers/dw1000/Inc"
+  "C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Drivers/pc_connection"
   )
 
 # The set of dependency files which are needed:
@@ -102,6 +103,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Drivers/dw1000/Src/dw1000.c" "CMakeFiles/test_dw1000.elf.dir/Drivers/dw1000/Src/dw1000.c.obj" "gcc" "CMakeFiles/test_dw1000.elf.dir/Drivers/dw1000/Src/dw1000.c.obj.d"
   "C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Drivers/dw1000/Src/frame.c" "CMakeFiles/test_dw1000.elf.dir/Drivers/dw1000/Src/frame.c.obj" "gcc" "CMakeFiles/test_dw1000.elf.dir/Drivers/dw1000/Src/frame.c.obj.d"
   "C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Drivers/dw1000/Src/fsm.c" "CMakeFiles/test_dw1000.elf.dir/Drivers/dw1000/Src/fsm.c.obj" "gcc" "CMakeFiles/test_dw1000.elf.dir/Drivers/dw1000/Src/fsm.c.obj.d"
+  "C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Drivers/pc_connection/pc_protocol.c" "CMakeFiles/test_dw1000.elf.dir/Drivers/pc_connection/pc_protocol.c.obj" "gcc" "CMakeFiles/test_dw1000.elf.dir/Drivers/pc_connection/pc_protocol.c.obj.d"
   "C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Drivers/terminal/lwshell.c" "CMakeFiles/test_dw1000.elf.dir/Drivers/terminal/lwshell.c.obj" "gcc" "CMakeFiles/test_dw1000.elf.dir/Drivers/terminal/lwshell.c.obj.d"
   "C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Drivers/terminal/platform/terminal.c" "CMakeFiles/test_dw1000.elf.dir/Drivers/terminal/platform/terminal.c.obj" "gcc" "CMakeFiles/test_dw1000.elf.dir/Drivers/terminal/platform/terminal.c.obj.d"
   "C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Drivers/tests/tests.c" "CMakeFiles/test_dw1000.elf.dir/Drivers/tests/tests.c.obj" "gcc" "CMakeFiles/test_dw1000.elf.dir/Drivers/tests/tests.c.obj.d"

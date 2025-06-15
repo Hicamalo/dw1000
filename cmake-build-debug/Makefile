@@ -1672,6 +1672,30 @@ Drivers/dw1000/Src/fsm.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_dw1000.elf.dir\build.make CMakeFiles/test_dw1000.elf.dir/Drivers/dw1000/Src/fsm.c.s
 .PHONY : Drivers/dw1000/Src/fsm.c.s
 
+Drivers/pc_connection/pc_protocol.obj: Drivers/pc_connection/pc_protocol.c.obj
+.PHONY : Drivers/pc_connection/pc_protocol.obj
+
+# target to build an object file
+Drivers/pc_connection/pc_protocol.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_dw1000.elf.dir\build.make CMakeFiles/test_dw1000.elf.dir/Drivers/pc_connection/pc_protocol.c.obj
+.PHONY : Drivers/pc_connection/pc_protocol.c.obj
+
+Drivers/pc_connection/pc_protocol.i: Drivers/pc_connection/pc_protocol.c.i
+.PHONY : Drivers/pc_connection/pc_protocol.i
+
+# target to preprocess a source file
+Drivers/pc_connection/pc_protocol.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_dw1000.elf.dir\build.make CMakeFiles/test_dw1000.elf.dir/Drivers/pc_connection/pc_protocol.c.i
+.PHONY : Drivers/pc_connection/pc_protocol.c.i
+
+Drivers/pc_connection/pc_protocol.s: Drivers/pc_connection/pc_protocol.c.s
+.PHONY : Drivers/pc_connection/pc_protocol.s
+
+# target to generate assembly for a file
+Drivers/pc_connection/pc_protocol.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_dw1000.elf.dir\build.make CMakeFiles/test_dw1000.elf.dir/Drivers/pc_connection/pc_protocol.c.s
+.PHONY : Drivers/pc_connection/pc_protocol.c.s
+
 Drivers/terminal/lwshell.obj: Drivers/terminal/lwshell.c.obj
 .PHONY : Drivers/terminal/lwshell.obj
 
@@ -1970,6 +1994,9 @@ help:
 	@echo ... Drivers/dw1000/Src/fsm.obj
 	@echo ... Drivers/dw1000/Src/fsm.i
 	@echo ... Drivers/dw1000/Src/fsm.s
+	@echo ... Drivers/pc_connection/pc_protocol.obj
+	@echo ... Drivers/pc_connection/pc_protocol.i
+	@echo ... Drivers/pc_connection/pc_protocol.s
 	@echo ... Drivers/terminal/lwshell.obj
 	@echo ... Drivers/terminal/lwshell.i
 	@echo ... Drivers/terminal/lwshell.s

@@ -1,2 +1,0 @@
-../Drivers/tests/tests.c:10:1:test_spi_dw1000	48	static
-../Drivers/tests/tests.c:29:1:test_check_id_dw1000	16	static

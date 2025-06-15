@@ -1,5 +1,13 @@
 #include "fsm.h"
 
+char out_str[64] = {0};
+int64 tof_dtu;
+double tof, distance;
+
+
+uint64_t res_delay = 0;
+uint8_t reset_flag = 1;
+
 uint8_t
 anchor_loop(void) {
     terminal_print("Device type: ANCHOR\r\n", strlen("Device type: ANCHOR\r\n"));
@@ -15,10 +23,13 @@ anchor_loop(void) {
     anchor_fsm_state_t anchor_fsm_state = ANCHOR_FSM_IDLE;
 
     uint64_t poll_rx_ts, response_tx_time, response_tx_ts, final_rx_ts;
-    double tof, distance;
 
     while (1) {
         switch (anchor_fsm_state) {
+            case ANCHOR_FSM_COMMAND_EXECUTING: {
+
+                break;
+            };
             case ANCHOR_FSM_IDLE: {
                 anchor_fsm_state = ANCHOR_FSM_WAIT_BLINK;
                 break;
@@ -38,8 +49,13 @@ anchor_loop(void) {
                 }
 
                 if (poll_frame_parser(rx_buffer, rx_buffer_size) == FALSE) {
-                    anchor_fsm_state = ANCHOR_FSM_IDLE;
-                    break;
+                    if (dev_frame_parser(rx_buffer, rx_buffer_size) == FALSE) {
+                        anchor_fsm_state = ANCHOR_FSM_IDLE;
+                        break;
+                    } else {
+                        anchor_fsm_state = ANCHOR_FSM_COMMAND_EXECUTING;
+                        break;
+                    }
                 }
 
                 poll_rx_ts = get_rx_timestamp_u64();
@@ -66,6 +82,11 @@ anchor_loop(void) {
                     break;
                 }
 
+                if (reset_flag == 0) {
+                    reset_timebase();
+                    reset_flag = 1;
+                }
+
                 anchor_fsm_state = ANCHOR_FSM_WAIT_FINAL;
                 break;
             };
@@ -76,12 +97,21 @@ anchor_loop(void) {
                 }
 
                 if (final_frame_parser(rx_buffer, rx_buffer_size) == FALSE) {
-                    anchor_fsm_state = ANCHOR_FSM_IDLE;
-                    break;
+                    if (dev_frame_parser(rx_buffer, rx_buffer_size) == FALSE) {
+                        anchor_fsm_state = ANCHOR_FSM_IDLE;
+                        break;
+                    } else {
+                        anchor_fsm_state = ANCHOR_FSM_COMMAND_EXECUTING;
+                        break;
+                    }
                 }
 
+                anchor_fsm_state = ANCHOR_FSM_CALCULATE_TOF;
+                break;
+            };
+            case ANCHOR_FSM_CALCULATE_TOF: {
+
                 double Ra, Rb, Da, Db;
-                int64 tof_dtu;
 
                 response_tx_ts = get_tx_timestamp_u64();
                 final_rx_ts = get_rx_timestamp_u64();
@@ -92,75 +122,10 @@ anchor_loop(void) {
                 Db = (double)(response_tx_ts - poll_rx_ts);
                 tof_dtu = (int64)((Ra * Rb - Da * Db) / (Ra + Rb + Da + Db));
 
-                tof = tof_dtu * DWT_TIME_UNITS;
-                distance = tof * SPEED_OF_LIGHT;
-
-                char dist_str[64] = {0};
-
-                static uint8_t anc_i = 0;
-                static double sum = 0.0;
-
-                if (anc_i < 100) {
-                    sum += distance;
-
-                    //                    if (sum > 200) {
-                    //                        sum = 0.0;
-                    //                        anc_i = 0;
-                    //                    } else if (sum < 0) {
-                    //                        sum = 0.0;
-                    //                        anc_i = 0;
-                    //                    }
-
-                    anc_i++;
-                } else {
-
-#if MODE == ANCHOR_1
-                    sprintf(dist_str, "ANCHOR_1, dist: %4.2f m\r\n", sum / 100.0);
-#elif MODE == ANCHOR_2
-                    sprintf(dist_str, "ANCHOR_2, dist: %4.2f m\r\n", sum / 100.0);
-#elif MODE == ANCHOR_3
-                    sprintf(dist_str, "ANCHOR_3, dist: %4.2f m\r\n", sum / 100.0);
-#elif MODE == ANCHOR_4
-                    sprintf(dist_str, "ANCHOR_4, dist: %4.2f m\r\n", sum / 100.0);
-#endif
-
-                    terminal_print(dist_str, strlen(dist_str));
-
-                    led_on(LED_2);
-                    HAL_Delay(1);
-                    led_off(LED_2);
-                    HAL_Delay(1);
-
-                    double int_part, frac_part;
-
-                    frac_part = modf(sum / 100, &int_part);
-
-                    global_final_frame.frame_control = POLL_RESPONSE_FINAL_FRAME_CONTROL;
-                    global_final_frame.sequence_number = sequence_number;
-                    global_final_frame.pan_id = PAN_ID;
-                    global_final_frame.destination_address = 0;
-                    global_final_frame.source_address = source_address;
-                    global_final_frame.function_code = FINAL_FUNCTION_CODE;
-
-                    final_frame_builder(tx_buffer, &tx_buffer_size);
-
-                    if (uwb_transmit_data(tx_buffer, tx_buffer_size, 0, 0, FALSE) == FALSE) {
-                        anchor_fsm_state = ANCHOR_FSM_IDLE;
-                        break;
-                    }
-
-                    //calibrate_anchor_antenna_delay(sum / 100.0);
-                    sum = 0.0;
-                    anc_i = 0;
-                }
-
-                anchor_fsm_state = ANCHOR_FSM_CALCULATE_TOF;
-                break;
-            };
-            case ANCHOR_FSM_CALCULATE_TOF: {
                 anchor_fsm_state = ANCHOR_FSM_IDLE;
                 break;
             }
+
             default: {
                 anchor_fsm_state = ANCHOR_FSM_IDLE;
                 break;
@@ -183,20 +148,24 @@ tag_loop(void) {
 
     uint64_t poll_tx_ts, response_rx_ts, final_tx_time, final_tx_ts;
 
-    tag_fsm_state_t tag_fmt_state = TAG_FSM_IDLE;
+    tag_fsm_state_t tag_fsm_state = TAG_FSM_IDLE;
 
     while (1) {
-        switch (tag_fmt_state) {
+        switch (tag_fsm_state) {
+            case TAG_FSM_COMMAND_EXECUTING: {
+
+                break;
+            };
             case TAG_FSM_IDLE: {
-                tag_fmt_state = TAG_FSM_SEND_BLINK;
+                tag_fsm_state = TAG_FSM_SEND_BLINK;
                 break;
             };
             case TAG_FSM_SEND_BLINK: {
-                tag_fmt_state = TAG_FSM_WAIT_RANGING_INIT;
+                tag_fsm_state = TAG_FSM_WAIT_RANGING_INIT;
                 break;
             };
             case TAG_FSM_WAIT_RANGING_INIT: {
-                tag_fmt_state = TAG_FSM_SEND_POLL;
+                tag_fsm_state = TAG_FSM_SEND_POLL;
                 break;
             };
             case TAG_FSM_SEND_POLL: {
@@ -210,25 +179,35 @@ tag_loop(void) {
                 poll_frame_builder(tx_buffer, &tx_buffer_size);
 
                 if (uwb_transmit_data(tx_buffer, tx_buffer_size, 0, POLL_TX_TO_RESPONSE_RX_DLY_UUS, TRUE) == FALSE) {
-                    tag_fmt_state = TAG_FSM_IDLE;
+                    tag_fsm_state = TAG_FSM_IDLE;
                     break;
                 }
 
-                tag_fmt_state = TAG_FSM_WAIT_RESPONSE;
+                tag_fsm_state = TAG_FSM_WAIT_RESPONSE;
                 break;
             };
             case TAG_FSM_WAIT_RESPONSE: {
                 if (uwb_receive_data(TRUE, rx_buffer, &rx_buffer_size, 0, RESPONSE_RX_TIMEOUT_UUS) == FALSE) {
-                    tag_fmt_state = TAG_FSM_IDLE;
+                    tag_fsm_state = TAG_FSM_IDLE;
                     break;
                 }
 
                 if (response_frame_parser(rx_buffer, rx_buffer_size) == FALSE) {
-                    tag_fmt_state = TAG_FSM_IDLE;
-                    break;
+                    if (dev_frame_parser(rx_buffer, rx_buffer_size) == FALSE) {
+                        tag_fsm_state = TAG_FSM_IDLE;
+                        break;
+                    } else {
+                        tag_fsm_state = TAG_FSM_COMMAND_EXECUTING;
+                        break;
+                    }
                 }
 
-                tag_fmt_state = TAG_FSM_SEND_FINAL;
+                if (reset_flag == 0) {
+                    reset_timebase();
+                    reset_flag = 1;
+                }
+
+                tag_fsm_state = TAG_FSM_SEND_FINAL;
                 break;
             };
             case TAG_FSM_SEND_FINAL: {
@@ -248,108 +227,30 @@ tag_loop(void) {
                 if (response_rx_ts > poll_tx_ts) {
                     global_final_frame.resp_rx_time_minus_poll_tx_time = response_rx_ts - poll_tx_ts;
                 } else {
-                    tag_fmt_state = TAG_FSM_IDLE;
+                    tag_fsm_state = TAG_FSM_IDLE;
                     break;
                 }
 
                 if (final_tx_ts > response_rx_ts) {
                     global_final_frame.final_tx_time_minus_resp_rx_time = final_tx_ts - response_rx_ts;
                 } else {
-                    tag_fmt_state = TAG_FSM_IDLE;
+                    tag_fsm_state = TAG_FSM_IDLE;
                     break;
                 }
 
                 final_frame_builder(tx_buffer, &tx_buffer_size);
 
                 if (uwb_transmit_data(tx_buffer, tx_buffer_size, final_tx_time, 0, FALSE) == FALSE) {
-                    tag_fmt_state = TAG_FSM_IDLE;
+                    tag_fsm_state = TAG_FSM_IDLE;
                     break;
                 }
 
-                /* Теперь ждем ответа с измеренной дальностью от якоря */
-
-                if (uwb_receive_data(FALSE, rx_buffer, &rx_buffer_size, 0, FINAL_RX_TIMEOUT_UUS) == FALSE) {
-                    if (designation_address == 1) {
-                        designation_address = 2;
-                    } else if (designation_address == 2) {
-                        designation_address = 3;
-                    } else if (designation_address == 3) {
-                        designation_address = 4;
-                    } else if (designation_address == 4) {
-                        designation_address = 1;
-                    }
-
-                    tag_fmt_state = TAG_FSM_IDLE;
-                    break;
-                }
-
-                if (final_frame_parser(rx_buffer, rx_buffer_size) == FALSE) {
-                    if (designation_address == 1) {
-                        designation_address = 2;
-                    } else if (designation_address == 2) {
-                        designation_address = 3;
-                    } else if (designation_address == 3) {
-                        designation_address = 4;
-                    } else if (designation_address == 4) {
-                        designation_address = 1;
-                    }
-
-                    tag_fmt_state = TAG_FSM_IDLE;
-                    break;
-                }
-
-                char dist_str[64] = {0};
-
-                if (designation_address == 1) {
-                    sprintf(dist_str, "ANCHOR_1, dist: %4.2f",
-                            (double)(global_final_frame.resp_rx_time_minus_poll_tx_time));
-                    terminal_print(dist_str, strlen(dist_str));
-                    sprintf(dist_str, ".%4.2f m\r\n",
-                            (double)(global_final_frame.final_tx_time_minus_resp_rx_time));
-                    terminal_print(dist_str, strlen(dist_str));
-                } else if (designation_address == 2) {
-                    sprintf(dist_str, "ANCHOR_2, dist: %4.2f",
-                            (double)(global_final_frame.resp_rx_time_minus_poll_tx_time));
-                    terminal_print(dist_str, strlen(dist_str));
-                    sprintf(dist_str, ".%4.2f m\r\n",
-                            (double)(global_final_frame.final_tx_time_minus_resp_rx_time));
-                    terminal_print(dist_str, strlen(dist_str));
-                } else if (designation_address == 3) {
-                    sprintf(dist_str, "ANCHOR_3, dist: %4.2f",
-                            (double)(global_final_frame.resp_rx_time_minus_poll_tx_time));
-                    terminal_print(dist_str, strlen(dist_str));
-                    sprintf(dist_str, ".%4.2f m\r\n",
-                            (double)(global_final_frame.final_tx_time_minus_resp_rx_time));
-                    terminal_print(dist_str, strlen(dist_str));
-                } else if (designation_address == 4) {
-                    sprintf(dist_str, "ANCHOR_4, dist: %4.2f",
-                            (double)(global_final_frame.resp_rx_time_minus_poll_tx_time));
-                    terminal_print(dist_str, strlen(dist_str));
-                    sprintf(dist_str, ".%4.2f m\r\n",
-                            (double)(global_final_frame.final_tx_time_minus_resp_rx_time));
-                    terminal_print(dist_str, strlen(dist_str));
-                }
-
-                led_on(LED_1);
-                HAL_Delay(1);
-                led_off(LED_1);
-                HAL_Delay(1);
-
-                if (designation_address == 1) {
-                    designation_address = 2;
-                } else if (designation_address == 2) {
-                    designation_address = 3;
-                } else if (designation_address == 3) {
-                    designation_address = 4;
-                } else if (designation_address == 4) {
-                    designation_address = 1;
-                }
-
-                tag_fmt_state = TAG_FSM_IDLE;
+                tag_fsm_state = TAG_FSM_IDLE;
                 break;
             };
+
             default: {
-                tag_fmt_state = TAG_FSM_IDLE;
+                tag_fsm_state = TAG_FSM_IDLE;
                 break;
             };
         }

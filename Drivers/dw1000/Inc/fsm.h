@@ -14,9 +14,13 @@
 #include "frame.h"
 #include "calibration.h"
 
+
 #define US_TO_UUS (449.2 / 512) /* 1 uus (UWB microsecond) = 512 / 499.2 us. Уможаем микросекунды, чтобы перевести в микросекунды UWB */
 
+
+
 #define US_TO_DTU (499.2 * 128) /* 1 dtu (device time unit) = 128 * 499.2 us. Уможаем микросекунды, чтобы перевести в dtu */
+
 
 
 #define UUS_TO_DWU (65536) /* Умножаем UUS, чтобы перевести в dtu */
@@ -24,14 +28,20 @@
 
 #define POLL_TX_TO_RESPONSE_RX_DLY_UUS 100 /* Задержка перед переключением режима работы из TX в RX, в момент передачи Poll и получения Response */
 
+
+
 #define RESPONSE_RX_TO_FINAL_TX_DLY_UUS 4500 /* Задержка перед переключением режима работы из RX в TX, в момент получения Response и передачи Final */
+
 
 
 #define RESPONSE_RX_TIMEOUT_UUS 10000 /* Таймаут ожидания Response */
 
 #define POLL_RX_TO_RESPONSE_TX_DLY_UUS 4500 /* Задержка перед переключением режима работы из RX в TX, в момент получения Poll и передачи Response */
 
+
+
 #define RESPONSE_TX_TO_FINAL_RX_DLY_UUS 100 /* Задержка перед переключением режима работы из TX в RX, в момент передачи Response и получения Final */
+
 
 
 #define FINAL_RX_TIMEOUT_UUS 10000 /* Таймаут ожидания Final */
@@ -49,7 +59,7 @@ typedef enum {
     ANCHOR_FSM_SEND_RESPONSE = 4,
     ANCHOR_FSM_WAIT_FINAL = 5,
     ANCHOR_FSM_CALCULATE_TOF = 6,
-    ANCHOR_FSM_SEND_DIST_TO_TAG = 7,
+    ANCHOR_FSM_COMMAND_EXECUTING = 7,
 } anchor_fsm_state_t;
 
 /**
@@ -62,8 +72,16 @@ typedef enum {
     TAG_FSM_SEND_POLL = 3,
     TAG_FSM_WAIT_RESPONSE = 4,
     TAG_FSM_SEND_FINAL = 5,
-    TAG_FSM_WAIT_DIST_FROM_TAG = 6,
+    TAG_FSM_COMMAND_EXECUTING = 6,
 } tag_fsm_state_t;
+
+/**
+ * \brief ENUM, описывающий состояния платы-приемника данных для передачи на сервер
+ */
+typedef enum {
+    DEV_FSM_IDLE = 0,
+    DEV_FSM_GET_INFO = 1,
+} dev_fsm_state_t;
 
 #ifdef __cplusplus
 extern "C" {
@@ -74,6 +92,9 @@ anchor_loop(void);
 
 uint8_t
 tag_loop(void);
+
+uint8_t
+dev_loop(void);
 
 #ifdef __cplusplus
 }

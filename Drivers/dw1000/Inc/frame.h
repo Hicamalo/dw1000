@@ -13,6 +13,7 @@
 #define BLINK_FRAME_CONTROL 0xC5
 #define RANGING_INIT_FRAME_CONTROL 0xCC41
 #define POLL_RESPONSE_FINAL_FRAME_CONTROL 0x8841
+#define DEV_FRAME_CONTROL 0x1488
 
 #define PAN_ID 0xDECA
 
@@ -20,12 +21,14 @@
 #define POLL_FUNCTION_CODE 0x61
 #define RESPONSE_FUNCTION_CODE 0x50
 #define FINAL_FUNCTION_CODE 0x69
+#define DEV_FUNCTION_CODE 0x15
 
 #define BLINK_FRAME_SIZE 12
 #define RANGING_INIT_MSG_SIZE 22
 #define POLL_FRAME_SIZE 12
 #define RESPONSE_FRAME_SIZE 20
 #define FINAL_FRAME_SIZE 28
+#define DEV_FRAME_SIZE 17
 
 /**
  * \brief Структура сообщения "Blink"
@@ -99,48 +102,73 @@ typedef struct {
     uint16_t frame_checksum; /* dw1000 добавляет автоматически */
 } final_t;
 
+/**
+ * \brief Структура сообщения "dev"
+ * \note 17 байт
+ */
+typedef struct {
+    uint16_t frame_control; /* 0x1488 */
+    uint8_t sequence_number;
+    uint16_t pan_id; /* 0xDECA */
+    uint16_t dev_address;
+    uint16_t tag_address;
+    uint16_t destination_address;
+    uint16_t source_address;
+    uint8_t function_code; /* 0x15 */
+    uint8_t beacon_mode;
+    uint16_t frame_checksum; /* dw1000 добавляет автоматически */
+} dev_t;
+
 extern blink_t global_blink_frame;
 extern ranging_init_msg_t global_ranging_init_msg;
 extern poll_t global_poll_frame;
 extern response_t global_response_frame;
 extern final_t global_final_frame;
+extern dev_t global_dev_frame;
 
 extern uint8_t source_address;
 extern uint8_t designation_address;
+extern uint8_t dev_address;
 
 #ifdef __cplusplus
 extern "C" {
 #endif /* __cplusplus */
 
 uint8_t
-blink_frame_parser(const uint8_t *data, size_t size);
+blink_frame_parser(const uint8_t* data, size_t size);
 
 uint8_t
-ranging_init_frame_parser(const uint8_t *data, size_t size);
+ranging_init_frame_parser(const uint8_t* data, size_t size);
 
 uint8_t
-poll_frame_parser(const uint8_t *data, size_t size);
+poll_frame_parser(const uint8_t* data, size_t size);
 
 uint8_t
-response_frame_parser(const uint8_t *data, size_t size);
+response_frame_parser(const uint8_t* data, size_t size);
 
 uint8_t
-final_frame_parser(const uint8_t *data, size_t size);
+final_frame_parser(const uint8_t* data, size_t size);
 
 uint8_t
-blink_frame_builder(uint8_t *data, size_t *size);
+dev_frame_parser(const uint8_t* data, size_t size);
 
 uint8_t
-ranging_init_msg_builder(uint8_t *data, size_t *size);
+blink_frame_builder(uint8_t* data, size_t* size);
 
 uint8_t
-poll_frame_builder(uint8_t *data, size_t *size);
+ranging_init_msg_builder(uint8_t* data, size_t* size);
 
 uint8_t
-response_frame_builder(uint8_t *data, size_t *size);
+poll_frame_builder(uint8_t* data, size_t* size);
 
 uint8_t
-final_frame_builder(uint8_t *data, size_t *size);
+response_frame_builder(uint8_t* data, size_t* size);
+
+uint8_t
+final_frame_builder(uint8_t* data, size_t* size);
+
+uint8_t
+dev_frame_builder(uint8_t* data, size_t size);
 
 #ifdef __cplusplus
 }

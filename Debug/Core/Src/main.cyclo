@@ -1,8 +1,0 @@
-../Core/Src/main.c:77:1:LCD_SendInternal	2
-../Core/Src/main.c:103:1:LCD_SendCommand	1
-../Core/Src/main.c:108:1:LCD_SendData	1
-../Core/Src/main.c:113:1:LCD_Init	1
-../Core/Src/main.c:125:1:LCD_SendString	2
-../Core/Src/main.c:139:1:main	1
-../Core/Src/main.c:246:1:SystemClock_Config	3
-../Core/Src/main.c:288:1:Error_Handler	1

@@ -72,966 +72,980 @@ CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_01a_simple_tx/ex_01a_main.c.
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_01a_simple_tx/ex_01a_main.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Core/Src/examples/ex_01a_simple_tx/ex_01a_main.c
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_01a_simple_tx/ex_01a_main.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_01a_simple_tx/ex_01a_main.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_01a_simple_tx/ex_01a_main.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_01a_simple_tx\ex_01a_main.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_01a_simple_tx\ex_01a_main.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_01a_simple_tx\ex_01a_main.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_01a_simple_tx/ex_01a_main.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_01a_simple_tx\ex_01a_main.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_01a_simple_tx\ex_01a_main.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_01a_simple_tx\ex_01a_main.c
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_01a_simple_tx/ex_01a_main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_01a_simple_tx/ex_01a_main.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_01a_simple_tx\ex_01a_main.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_01a_simple_tx\ex_01a_main.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_01a_simple_tx\ex_01a_main.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_01a_simple_tx\ex_01a_main.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_01a_simple_tx/ex_01a_main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_01a_simple_tx/ex_01a_main.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_01a_simple_tx\ex_01a_main.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_01a_simple_tx\ex_01a_main.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_01a_simple_tx\ex_01a_main.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_01a_simple_tx\ex_01a_main.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_01b_tx_sleep/ex_01b_main.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_01b_tx_sleep/ex_01b_main.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Core/Src/examples/ex_01b_tx_sleep/ex_01b_main.c
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_01b_tx_sleep/ex_01b_main.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_01b_tx_sleep/ex_01b_main.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_01b_tx_sleep/ex_01b_main.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_01b_tx_sleep\ex_01b_main.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_01b_tx_sleep\ex_01b_main.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_01b_tx_sleep\ex_01b_main.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_01b_tx_sleep/ex_01b_main.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_01b_tx_sleep\ex_01b_main.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_01b_tx_sleep\ex_01b_main.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_01b_tx_sleep\ex_01b_main.c
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_01b_tx_sleep/ex_01b_main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_01b_tx_sleep/ex_01b_main.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_01b_tx_sleep\ex_01b_main.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_01b_tx_sleep\ex_01b_main.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_01b_tx_sleep\ex_01b_main.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_01b_tx_sleep\ex_01b_main.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_01b_tx_sleep/ex_01b_main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_01b_tx_sleep/ex_01b_main.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_01b_tx_sleep\ex_01b_main.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_01b_tx_sleep\ex_01b_main.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_01b_tx_sleep\ex_01b_main.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_01b_tx_sleep\ex_01b_main.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_01c_tx_sleep_auto/ex_01c_main.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_01c_tx_sleep_auto/ex_01c_main.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Core/Src/examples/ex_01c_tx_sleep_auto/ex_01c_main.c
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_01c_tx_sleep_auto/ex_01c_main.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_01c_tx_sleep_auto/ex_01c_main.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_01c_tx_sleep_auto/ex_01c_main.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_01c_tx_sleep_auto\ex_01c_main.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_01c_tx_sleep_auto\ex_01c_main.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_01c_tx_sleep_auto\ex_01c_main.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_01c_tx_sleep_auto/ex_01c_main.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_01c_tx_sleep_auto\ex_01c_main.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_01c_tx_sleep_auto\ex_01c_main.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_01c_tx_sleep_auto\ex_01c_main.c
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_01c_tx_sleep_auto/ex_01c_main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_01c_tx_sleep_auto/ex_01c_main.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_01c_tx_sleep_auto\ex_01c_main.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_01c_tx_sleep_auto\ex_01c_main.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_01c_tx_sleep_auto\ex_01c_main.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_01c_tx_sleep_auto\ex_01c_main.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_01c_tx_sleep_auto/ex_01c_main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_01c_tx_sleep_auto/ex_01c_main.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_01c_tx_sleep_auto\ex_01c_main.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_01c_tx_sleep_auto\ex_01c_main.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_01c_tx_sleep_auto\ex_01c_main.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_01c_tx_sleep_auto\ex_01c_main.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_01d_tx_timed_sleep/ex_01d_main.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_01d_tx_timed_sleep/ex_01d_main.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Core/Src/examples/ex_01d_tx_timed_sleep/ex_01d_main.c
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_01d_tx_timed_sleep/ex_01d_main.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_01d_tx_timed_sleep/ex_01d_main.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_01d_tx_timed_sleep/ex_01d_main.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_01d_tx_timed_sleep\ex_01d_main.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_01d_tx_timed_sleep\ex_01d_main.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_01d_tx_timed_sleep\ex_01d_main.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_01d_tx_timed_sleep/ex_01d_main.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_01d_tx_timed_sleep\ex_01d_main.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_01d_tx_timed_sleep\ex_01d_main.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_01d_tx_timed_sleep\ex_01d_main.c
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_01d_tx_timed_sleep/ex_01d_main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_01d_tx_timed_sleep/ex_01d_main.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_01d_tx_timed_sleep\ex_01d_main.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_01d_tx_timed_sleep\ex_01d_main.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_01d_tx_timed_sleep\ex_01d_main.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_01d_tx_timed_sleep\ex_01d_main.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_01d_tx_timed_sleep/ex_01d_main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_01d_tx_timed_sleep/ex_01d_main.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_01d_tx_timed_sleep\ex_01d_main.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_01d_tx_timed_sleep\ex_01d_main.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_01d_tx_timed_sleep\ex_01d_main.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_01d_tx_timed_sleep\ex_01d_main.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_01e_tx_with_cca/ex_01e_tx_with_cca.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_01e_tx_with_cca/ex_01e_tx_with_cca.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Core/Src/examples/ex_01e_tx_with_cca/ex_01e_tx_with_cca.c
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_01e_tx_with_cca/ex_01e_tx_with_cca.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_01e_tx_with_cca/ex_01e_tx_with_cca.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_01e_tx_with_cca/ex_01e_tx_with_cca.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_01e_tx_with_cca\ex_01e_tx_with_cca.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_01e_tx_with_cca\ex_01e_tx_with_cca.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_01e_tx_with_cca\ex_01e_tx_with_cca.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_01e_tx_with_cca/ex_01e_tx_with_cca.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_01e_tx_with_cca\ex_01e_tx_with_cca.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_01e_tx_with_cca\ex_01e_tx_with_cca.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_01e_tx_with_cca\ex_01e_tx_with_cca.c
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_01e_tx_with_cca/ex_01e_tx_with_cca.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_01e_tx_with_cca/ex_01e_tx_with_cca.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_01e_tx_with_cca\ex_01e_tx_with_cca.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_01e_tx_with_cca\ex_01e_tx_with_cca.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_01e_tx_with_cca\ex_01e_tx_with_cca.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_01e_tx_with_cca\ex_01e_tx_with_cca.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_01e_tx_with_cca/ex_01e_tx_with_cca.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_01e_tx_with_cca/ex_01e_tx_with_cca.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_01e_tx_with_cca\ex_01e_tx_with_cca.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_01e_tx_with_cca\ex_01e_tx_with_cca.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_01e_tx_with_cca\ex_01e_tx_with_cca.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_01e_tx_with_cca\ex_01e_tx_with_cca.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_02a_simple_rx/ex_02a_main.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_02a_simple_rx/ex_02a_main.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Core/Src/examples/ex_02a_simple_rx/ex_02a_main.c
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_02a_simple_rx/ex_02a_main.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_02a_simple_rx/ex_02a_main.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_02a_simple_rx/ex_02a_main.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_02a_simple_rx\ex_02a_main.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_02a_simple_rx\ex_02a_main.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_02a_simple_rx\ex_02a_main.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_02a_simple_rx/ex_02a_main.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_02a_simple_rx\ex_02a_main.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_02a_simple_rx\ex_02a_main.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_02a_simple_rx\ex_02a_main.c
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_02a_simple_rx/ex_02a_main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_02a_simple_rx/ex_02a_main.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_02a_simple_rx\ex_02a_main.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_02a_simple_rx\ex_02a_main.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_02a_simple_rx\ex_02a_main.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_02a_simple_rx\ex_02a_main.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_02a_simple_rx/ex_02a_main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_02a_simple_rx/ex_02a_main.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_02a_simple_rx\ex_02a_main.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_02a_simple_rx\ex_02a_main.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_02a_simple_rx\ex_02a_main.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_02a_simple_rx\ex_02a_main.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_02b_rx_preamble_64/ex_02b_main.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_02b_rx_preamble_64/ex_02b_main.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Core/Src/examples/ex_02b_rx_preamble_64/ex_02b_main.c
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_02b_rx_preamble_64/ex_02b_main.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_02b_rx_preamble_64/ex_02b_main.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_02b_rx_preamble_64/ex_02b_main.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_02b_rx_preamble_64\ex_02b_main.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_02b_rx_preamble_64\ex_02b_main.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_02b_rx_preamble_64\ex_02b_main.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_02b_rx_preamble_64/ex_02b_main.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_02b_rx_preamble_64\ex_02b_main.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_02b_rx_preamble_64\ex_02b_main.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_02b_rx_preamble_64\ex_02b_main.c
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_02b_rx_preamble_64/ex_02b_main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_02b_rx_preamble_64/ex_02b_main.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_02b_rx_preamble_64\ex_02b_main.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_02b_rx_preamble_64\ex_02b_main.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_02b_rx_preamble_64\ex_02b_main.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_02b_rx_preamble_64\ex_02b_main.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_02b_rx_preamble_64/ex_02b_main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_02b_rx_preamble_64/ex_02b_main.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_02b_rx_preamble_64\ex_02b_main.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_02b_rx_preamble_64\ex_02b_main.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_02b_rx_preamble_64\ex_02b_main.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_02b_rx_preamble_64\ex_02b_main.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_02c_rx_diagnostics/ex_02c_main.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_02c_rx_diagnostics/ex_02c_main.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Core/Src/examples/ex_02c_rx_diagnostics/ex_02c_main.c
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_02c_rx_diagnostics/ex_02c_main.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_02c_rx_diagnostics/ex_02c_main.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_02c_rx_diagnostics/ex_02c_main.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_02c_rx_diagnostics\ex_02c_main.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_02c_rx_diagnostics\ex_02c_main.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_02c_rx_diagnostics\ex_02c_main.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_02c_rx_diagnostics/ex_02c_main.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_02c_rx_diagnostics\ex_02c_main.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_02c_rx_diagnostics\ex_02c_main.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_02c_rx_diagnostics\ex_02c_main.c
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_02c_rx_diagnostics/ex_02c_main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_02c_rx_diagnostics/ex_02c_main.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_02c_rx_diagnostics\ex_02c_main.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_02c_rx_diagnostics\ex_02c_main.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_02c_rx_diagnostics\ex_02c_main.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_02c_rx_diagnostics\ex_02c_main.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_02c_rx_diagnostics/ex_02c_main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_02c_rx_diagnostics/ex_02c_main.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_02c_rx_diagnostics\ex_02c_main.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_02c_rx_diagnostics\ex_02c_main.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_02c_rx_diagnostics\ex_02c_main.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_02c_rx_diagnostics\ex_02c_main.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_02d_rx_sniff/ex_02d_main.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_02d_rx_sniff/ex_02d_main.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Core/Src/examples/ex_02d_rx_sniff/ex_02d_main.c
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_02d_rx_sniff/ex_02d_main.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_02d_rx_sniff/ex_02d_main.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_02d_rx_sniff/ex_02d_main.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_02d_rx_sniff\ex_02d_main.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_02d_rx_sniff\ex_02d_main.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_02d_rx_sniff\ex_02d_main.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_02d_rx_sniff/ex_02d_main.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_02d_rx_sniff\ex_02d_main.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_02d_rx_sniff\ex_02d_main.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_02d_rx_sniff\ex_02d_main.c
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_02d_rx_sniff/ex_02d_main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_02d_rx_sniff/ex_02d_main.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_02d_rx_sniff\ex_02d_main.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_02d_rx_sniff\ex_02d_main.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_02d_rx_sniff\ex_02d_main.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_02d_rx_sniff\ex_02d_main.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_02d_rx_sniff/ex_02d_main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_02d_rx_sniff/ex_02d_main.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_02d_rx_sniff\ex_02d_main.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_02d_rx_sniff\ex_02d_main.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_02d_rx_sniff\ex_02d_main.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_02d_rx_sniff\ex_02d_main.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_02e_rx_dbl_buff/ex_02e_main.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_02e_rx_dbl_buff/ex_02e_main.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Core/Src/examples/ex_02e_rx_dbl_buff/ex_02e_main.c
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_02e_rx_dbl_buff/ex_02e_main.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_02e_rx_dbl_buff/ex_02e_main.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_02e_rx_dbl_buff/ex_02e_main.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_02e_rx_dbl_buff\ex_02e_main.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_02e_rx_dbl_buff\ex_02e_main.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_02e_rx_dbl_buff\ex_02e_main.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_02e_rx_dbl_buff/ex_02e_main.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_02e_rx_dbl_buff\ex_02e_main.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_02e_rx_dbl_buff\ex_02e_main.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_02e_rx_dbl_buff\ex_02e_main.c
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_02e_rx_dbl_buff/ex_02e_main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_02e_rx_dbl_buff/ex_02e_main.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_02e_rx_dbl_buff\ex_02e_main.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_02e_rx_dbl_buff\ex_02e_main.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_02e_rx_dbl_buff\ex_02e_main.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_02e_rx_dbl_buff\ex_02e_main.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_02e_rx_dbl_buff/ex_02e_main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_02e_rx_dbl_buff/ex_02e_main.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_02e_rx_dbl_buff\ex_02e_main.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_02e_rx_dbl_buff\ex_02e_main.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_02e_rx_dbl_buff\ex_02e_main.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_02e_rx_dbl_buff\ex_02e_main.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_02f_rx_with_crystal_trim/ex_02f_rx_with_xtal_trim.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_02f_rx_with_crystal_trim/ex_02f_rx_with_xtal_trim.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Core/Src/examples/ex_02f_rx_with_crystal_trim/ex_02f_rx_with_xtal_trim.c
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_02f_rx_with_crystal_trim/ex_02f_rx_with_xtal_trim.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_02f_rx_with_crystal_trim/ex_02f_rx_with_xtal_trim.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_02f_rx_with_crystal_trim/ex_02f_rx_with_xtal_trim.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_02f_rx_with_crystal_trim\ex_02f_rx_with_xtal_trim.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_02f_rx_with_crystal_trim\ex_02f_rx_with_xtal_trim.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_02f_rx_with_crystal_trim\ex_02f_rx_with_xtal_trim.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_02f_rx_with_crystal_trim/ex_02f_rx_with_xtal_trim.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_02f_rx_with_crystal_trim\ex_02f_rx_with_xtal_trim.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_02f_rx_with_crystal_trim\ex_02f_rx_with_xtal_trim.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_02f_rx_with_crystal_trim\ex_02f_rx_with_xtal_trim.c
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_02f_rx_with_crystal_trim/ex_02f_rx_with_xtal_trim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_02f_rx_with_crystal_trim/ex_02f_rx_with_xtal_trim.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_02f_rx_with_crystal_trim\ex_02f_rx_with_xtal_trim.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_02f_rx_with_crystal_trim\ex_02f_rx_with_xtal_trim.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_02f_rx_with_crystal_trim\ex_02f_rx_with_xtal_trim.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_02f_rx_with_crystal_trim\ex_02f_rx_with_xtal_trim.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_02f_rx_with_crystal_trim/ex_02f_rx_with_xtal_trim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_02f_rx_with_crystal_trim/ex_02f_rx_with_xtal_trim.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_02f_rx_with_crystal_trim\ex_02f_rx_with_xtal_trim.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_02f_rx_with_crystal_trim\ex_02f_rx_with_xtal_trim.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_02f_rx_with_crystal_trim\ex_02f_rx_with_xtal_trim.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_02f_rx_with_crystal_trim\ex_02f_rx_with_xtal_trim.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_03a_tx_wait_resp/ex_03a_main.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_03a_tx_wait_resp/ex_03a_main.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Core/Src/examples/ex_03a_tx_wait_resp/ex_03a_main.c
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_03a_tx_wait_resp/ex_03a_main.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_03a_tx_wait_resp/ex_03a_main.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_03a_tx_wait_resp/ex_03a_main.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_03a_tx_wait_resp\ex_03a_main.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_03a_tx_wait_resp\ex_03a_main.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_03a_tx_wait_resp\ex_03a_main.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_03a_tx_wait_resp/ex_03a_main.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_03a_tx_wait_resp\ex_03a_main.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_03a_tx_wait_resp\ex_03a_main.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_03a_tx_wait_resp\ex_03a_main.c
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_03a_tx_wait_resp/ex_03a_main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_03a_tx_wait_resp/ex_03a_main.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_03a_tx_wait_resp\ex_03a_main.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_03a_tx_wait_resp\ex_03a_main.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_03a_tx_wait_resp\ex_03a_main.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_03a_tx_wait_resp\ex_03a_main.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_03a_tx_wait_resp/ex_03a_main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_03a_tx_wait_resp/ex_03a_main.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_03a_tx_wait_resp\ex_03a_main.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_03a_tx_wait_resp\ex_03a_main.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_03a_tx_wait_resp\ex_03a_main.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_03a_tx_wait_resp\ex_03a_main.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_03b_rx_send_resp/ex_03b_main.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_03b_rx_send_resp/ex_03b_main.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Core/Src/examples/ex_03b_rx_send_resp/ex_03b_main.c
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_03b_rx_send_resp/ex_03b_main.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_03b_rx_send_resp/ex_03b_main.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_03b_rx_send_resp/ex_03b_main.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_03b_rx_send_resp\ex_03b_main.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_03b_rx_send_resp\ex_03b_main.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_03b_rx_send_resp\ex_03b_main.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_03b_rx_send_resp/ex_03b_main.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_03b_rx_send_resp\ex_03b_main.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_03b_rx_send_resp\ex_03b_main.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_03b_rx_send_resp\ex_03b_main.c
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_03b_rx_send_resp/ex_03b_main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_03b_rx_send_resp/ex_03b_main.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_03b_rx_send_resp\ex_03b_main.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_03b_rx_send_resp\ex_03b_main.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_03b_rx_send_resp\ex_03b_main.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_03b_rx_send_resp\ex_03b_main.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_03b_rx_send_resp/ex_03b_main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_03b_rx_send_resp/ex_03b_main.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_03b_rx_send_resp\ex_03b_main.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_03b_rx_send_resp\ex_03b_main.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_03b_rx_send_resp\ex_03b_main.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_03b_rx_send_resp\ex_03b_main.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_03c_tx_wait_resp_leds/ex_03c_main.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_03c_tx_wait_resp_leds/ex_03c_main.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Core/Src/examples/ex_03c_tx_wait_resp_leds/ex_03c_main.c
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_03c_tx_wait_resp_leds/ex_03c_main.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_03c_tx_wait_resp_leds/ex_03c_main.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_03c_tx_wait_resp_leds/ex_03c_main.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_03c_tx_wait_resp_leds\ex_03c_main.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_03c_tx_wait_resp_leds\ex_03c_main.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_03c_tx_wait_resp_leds\ex_03c_main.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_03c_tx_wait_resp_leds/ex_03c_main.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_03c_tx_wait_resp_leds\ex_03c_main.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_03c_tx_wait_resp_leds\ex_03c_main.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_03c_tx_wait_resp_leds\ex_03c_main.c
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_03c_tx_wait_resp_leds/ex_03c_main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_03c_tx_wait_resp_leds/ex_03c_main.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_03c_tx_wait_resp_leds\ex_03c_main.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_03c_tx_wait_resp_leds\ex_03c_main.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_03c_tx_wait_resp_leds\ex_03c_main.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_03c_tx_wait_resp_leds\ex_03c_main.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_03c_tx_wait_resp_leds/ex_03c_main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_03c_tx_wait_resp_leds/ex_03c_main.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_03c_tx_wait_resp_leds\ex_03c_main.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_03c_tx_wait_resp_leds\ex_03c_main.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_03c_tx_wait_resp_leds\ex_03c_main.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_03c_tx_wait_resp_leds\ex_03c_main.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_03d_tx_wait_resp_interrupts/ex_03d_main.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_03d_tx_wait_resp_interrupts/ex_03d_main.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Core/Src/examples/ex_03d_tx_wait_resp_interrupts/ex_03d_main.c
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_03d_tx_wait_resp_interrupts/ex_03d_main.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_03d_tx_wait_resp_interrupts/ex_03d_main.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_03d_tx_wait_resp_interrupts/ex_03d_main.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_03d_tx_wait_resp_interrupts\ex_03d_main.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_03d_tx_wait_resp_interrupts\ex_03d_main.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_03d_tx_wait_resp_interrupts\ex_03d_main.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_03d_tx_wait_resp_interrupts/ex_03d_main.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_03d_tx_wait_resp_interrupts\ex_03d_main.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_03d_tx_wait_resp_interrupts\ex_03d_main.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_03d_tx_wait_resp_interrupts\ex_03d_main.c
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_03d_tx_wait_resp_interrupts/ex_03d_main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_03d_tx_wait_resp_interrupts/ex_03d_main.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_03d_tx_wait_resp_interrupts\ex_03d_main.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_03d_tx_wait_resp_interrupts\ex_03d_main.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_03d_tx_wait_resp_interrupts\ex_03d_main.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_03d_tx_wait_resp_interrupts\ex_03d_main.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_03d_tx_wait_resp_interrupts/ex_03d_main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_03d_tx_wait_resp_interrupts/ex_03d_main.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_03d_tx_wait_resp_interrupts\ex_03d_main.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_03d_tx_wait_resp_interrupts\ex_03d_main.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_03d_tx_wait_resp_interrupts\ex_03d_main.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_03d_tx_wait_resp_interrupts\ex_03d_main.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_04a_cont_wave/ex_04a_main.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_04a_cont_wave/ex_04a_main.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Core/Src/examples/ex_04a_cont_wave/ex_04a_main.c
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_04a_cont_wave/ex_04a_main.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_04a_cont_wave/ex_04a_main.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_04a_cont_wave/ex_04a_main.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_04a_cont_wave\ex_04a_main.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_04a_cont_wave\ex_04a_main.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_04a_cont_wave\ex_04a_main.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_04a_cont_wave/ex_04a_main.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_04a_cont_wave\ex_04a_main.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_04a_cont_wave\ex_04a_main.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_04a_cont_wave\ex_04a_main.c
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_04a_cont_wave/ex_04a_main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_04a_cont_wave/ex_04a_main.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_04a_cont_wave\ex_04a_main.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_04a_cont_wave\ex_04a_main.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_04a_cont_wave\ex_04a_main.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_04a_cont_wave\ex_04a_main.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_04a_cont_wave/ex_04a_main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_04a_cont_wave/ex_04a_main.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_04a_cont_wave\ex_04a_main.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_04a_cont_wave\ex_04a_main.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_04a_cont_wave\ex_04a_main.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_04a_cont_wave\ex_04a_main.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_04b_cont_frame/ex_04b_main.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_04b_cont_frame/ex_04b_main.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Core/Src/examples/ex_04b_cont_frame/ex_04b_main.c
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_04b_cont_frame/ex_04b_main.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_04b_cont_frame/ex_04b_main.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_04b_cont_frame/ex_04b_main.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_04b_cont_frame\ex_04b_main.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_04b_cont_frame\ex_04b_main.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_04b_cont_frame\ex_04b_main.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_04b_cont_frame/ex_04b_main.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_04b_cont_frame\ex_04b_main.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_04b_cont_frame\ex_04b_main.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_04b_cont_frame\ex_04b_main.c
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_04b_cont_frame/ex_04b_main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_04b_cont_frame/ex_04b_main.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_04b_cont_frame\ex_04b_main.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_04b_cont_frame\ex_04b_main.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_04b_cont_frame\ex_04b_main.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_04b_cont_frame\ex_04b_main.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_04b_cont_frame/ex_04b_main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_04b_cont_frame/ex_04b_main.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_04b_cont_frame\ex_04b_main.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_04b_cont_frame\ex_04b_main.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_04b_cont_frame\ex_04b_main.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_04b_cont_frame\ex_04b_main.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_05a_ds_twr_init/ex_05a_main.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_05a_ds_twr_init/ex_05a_main.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Core/Src/examples/ex_05a_ds_twr_init/ex_05a_main.c
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_05a_ds_twr_init/ex_05a_main.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_05a_ds_twr_init/ex_05a_main.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_05a_ds_twr_init/ex_05a_main.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_05a_ds_twr_init\ex_05a_main.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_05a_ds_twr_init\ex_05a_main.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_05a_ds_twr_init\ex_05a_main.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_05a_ds_twr_init/ex_05a_main.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_05a_ds_twr_init\ex_05a_main.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_05a_ds_twr_init\ex_05a_main.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_05a_ds_twr_init\ex_05a_main.c
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_05a_ds_twr_init/ex_05a_main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_05a_ds_twr_init/ex_05a_main.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_05a_ds_twr_init\ex_05a_main.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_05a_ds_twr_init\ex_05a_main.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_05a_ds_twr_init\ex_05a_main.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_05a_ds_twr_init\ex_05a_main.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_05a_ds_twr_init/ex_05a_main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_05a_ds_twr_init/ex_05a_main.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_05a_ds_twr_init\ex_05a_main.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_05a_ds_twr_init\ex_05a_main.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_05a_ds_twr_init\ex_05a_main.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_05a_ds_twr_init\ex_05a_main.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_05b_ds_twr_resp/ex_05b_main.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_05b_ds_twr_resp/ex_05b_main.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Core/Src/examples/ex_05b_ds_twr_resp/ex_05b_main.c
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_05b_ds_twr_resp/ex_05b_main.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_05b_ds_twr_resp/ex_05b_main.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_05b_ds_twr_resp/ex_05b_main.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_05b_ds_twr_resp\ex_05b_main.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_05b_ds_twr_resp\ex_05b_main.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_05b_ds_twr_resp\ex_05b_main.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_05b_ds_twr_resp/ex_05b_main.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_05b_ds_twr_resp\ex_05b_main.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_05b_ds_twr_resp\ex_05b_main.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_05b_ds_twr_resp\ex_05b_main.c
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_05b_ds_twr_resp/ex_05b_main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_05b_ds_twr_resp/ex_05b_main.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_05b_ds_twr_resp\ex_05b_main.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_05b_ds_twr_resp\ex_05b_main.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_05b_ds_twr_resp\ex_05b_main.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_05b_ds_twr_resp\ex_05b_main.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_05b_ds_twr_resp/ex_05b_main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_05b_ds_twr_resp/ex_05b_main.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_05b_ds_twr_resp\ex_05b_main.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_05b_ds_twr_resp\ex_05b_main.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_05b_ds_twr_resp\ex_05b_main.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_05b_ds_twr_resp\ex_05b_main.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_06a_ss_twr_init/ex_06a_main.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_06a_ss_twr_init/ex_06a_main.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Core/Src/examples/ex_06a_ss_twr_init/ex_06a_main.c
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_06a_ss_twr_init/ex_06a_main.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_06a_ss_twr_init/ex_06a_main.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_06a_ss_twr_init/ex_06a_main.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_06a_ss_twr_init\ex_06a_main.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_06a_ss_twr_init\ex_06a_main.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_06a_ss_twr_init\ex_06a_main.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_06a_ss_twr_init/ex_06a_main.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_06a_ss_twr_init\ex_06a_main.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_06a_ss_twr_init\ex_06a_main.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_06a_ss_twr_init\ex_06a_main.c
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_06a_ss_twr_init/ex_06a_main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_06a_ss_twr_init/ex_06a_main.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_06a_ss_twr_init\ex_06a_main.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_06a_ss_twr_init\ex_06a_main.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_06a_ss_twr_init\ex_06a_main.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_06a_ss_twr_init\ex_06a_main.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_06a_ss_twr_init/ex_06a_main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_06a_ss_twr_init/ex_06a_main.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_06a_ss_twr_init\ex_06a_main.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_06a_ss_twr_init\ex_06a_main.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_06a_ss_twr_init\ex_06a_main.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_06a_ss_twr_init\ex_06a_main.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_06b_ss_twr_resp/ex_06b_main.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_06b_ss_twr_resp/ex_06b_main.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Core/Src/examples/ex_06b_ss_twr_resp/ex_06b_main.c
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_06b_ss_twr_resp/ex_06b_main.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_06b_ss_twr_resp/ex_06b_main.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_06b_ss_twr_resp/ex_06b_main.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_06b_ss_twr_resp\ex_06b_main.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_06b_ss_twr_resp\ex_06b_main.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_06b_ss_twr_resp\ex_06b_main.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_06b_ss_twr_resp/ex_06b_main.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_06b_ss_twr_resp\ex_06b_main.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_06b_ss_twr_resp\ex_06b_main.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_06b_ss_twr_resp\ex_06b_main.c
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_06b_ss_twr_resp/ex_06b_main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_06b_ss_twr_resp/ex_06b_main.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_06b_ss_twr_resp\ex_06b_main.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_06b_ss_twr_resp\ex_06b_main.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_06b_ss_twr_resp\ex_06b_main.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_06b_ss_twr_resp\ex_06b_main.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_06b_ss_twr_resp/ex_06b_main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_06b_ss_twr_resp/ex_06b_main.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_06b_ss_twr_resp\ex_06b_main.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_06b_ss_twr_resp\ex_06b_main.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_06b_ss_twr_resp\ex_06b_main.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_06b_ss_twr_resp\ex_06b_main.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_07a_ack_data_tx/ex_07a_main.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_07a_ack_data_tx/ex_07a_main.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Core/Src/examples/ex_07a_ack_data_tx/ex_07a_main.c
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_07a_ack_data_tx/ex_07a_main.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_07a_ack_data_tx/ex_07a_main.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_07a_ack_data_tx/ex_07a_main.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_07a_ack_data_tx\ex_07a_main.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_07a_ack_data_tx\ex_07a_main.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_07a_ack_data_tx\ex_07a_main.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_07a_ack_data_tx/ex_07a_main.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_07a_ack_data_tx\ex_07a_main.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_07a_ack_data_tx\ex_07a_main.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_07a_ack_data_tx\ex_07a_main.c
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_07a_ack_data_tx/ex_07a_main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_07a_ack_data_tx/ex_07a_main.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_07a_ack_data_tx\ex_07a_main.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_07a_ack_data_tx\ex_07a_main.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_07a_ack_data_tx\ex_07a_main.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_07a_ack_data_tx\ex_07a_main.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_07a_ack_data_tx/ex_07a_main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_07a_ack_data_tx/ex_07a_main.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_07a_ack_data_tx\ex_07a_main.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_07a_ack_data_tx\ex_07a_main.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_07a_ack_data_tx\ex_07a_main.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_07a_ack_data_tx\ex_07a_main.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_07b_ack_data_rx/ex_07b_main.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_07b_ack_data_rx/ex_07b_main.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Core/Src/examples/ex_07b_ack_data_rx/ex_07b_main.c
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_07b_ack_data_rx/ex_07b_main.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_07b_ack_data_rx/ex_07b_main.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_07b_ack_data_rx/ex_07b_main.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_07b_ack_data_rx\ex_07b_main.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_07b_ack_data_rx\ex_07b_main.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_07b_ack_data_rx\ex_07b_main.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_07b_ack_data_rx/ex_07b_main.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_07b_ack_data_rx\ex_07b_main.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_07b_ack_data_rx\ex_07b_main.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_07b_ack_data_rx\ex_07b_main.c
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_07b_ack_data_rx/ex_07b_main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_07b_ack_data_rx/ex_07b_main.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_07b_ack_data_rx\ex_07b_main.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_07b_ack_data_rx\ex_07b_main.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_07b_ack_data_rx\ex_07b_main.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_07b_ack_data_rx\ex_07b_main.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_07b_ack_data_rx/ex_07b_main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_07b_ack_data_rx/ex_07b_main.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_07b_ack_data_rx\ex_07b_main.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_07b_ack_data_rx\ex_07b_main.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_07b_ack_data_rx\ex_07b_main.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_07b_ack_data_rx\ex_07b_main.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_08a_low_power_listen_rx/ex_08a_main.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_08a_low_power_listen_rx/ex_08a_main.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Core/Src/examples/ex_08a_low_power_listen_rx/ex_08a_main.c
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_08a_low_power_listen_rx/ex_08a_main.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_08a_low_power_listen_rx/ex_08a_main.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_08a_low_power_listen_rx/ex_08a_main.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_08a_low_power_listen_rx\ex_08a_main.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_08a_low_power_listen_rx\ex_08a_main.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_08a_low_power_listen_rx\ex_08a_main.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_08a_low_power_listen_rx/ex_08a_main.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_08a_low_power_listen_rx\ex_08a_main.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_08a_low_power_listen_rx\ex_08a_main.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_08a_low_power_listen_rx\ex_08a_main.c
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_08a_low_power_listen_rx/ex_08a_main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_08a_low_power_listen_rx/ex_08a_main.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_08a_low_power_listen_rx\ex_08a_main.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_08a_low_power_listen_rx\ex_08a_main.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_08a_low_power_listen_rx\ex_08a_main.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_08a_low_power_listen_rx\ex_08a_main.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_08a_low_power_listen_rx/ex_08a_main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_08a_low_power_listen_rx/ex_08a_main.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_08a_low_power_listen_rx\ex_08a_main.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_08a_low_power_listen_rx\ex_08a_main.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_08a_low_power_listen_rx\ex_08a_main.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_08a_low_power_listen_rx\ex_08a_main.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_08b_low_power_listen_tx/ex_08b_main.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_08b_low_power_listen_tx/ex_08b_main.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Core/Src/examples/ex_08b_low_power_listen_tx/ex_08b_main.c
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_08b_low_power_listen_tx/ex_08b_main.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_08b_low_power_listen_tx/ex_08b_main.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_08b_low_power_listen_tx/ex_08b_main.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_08b_low_power_listen_tx\ex_08b_main.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_08b_low_power_listen_tx\ex_08b_main.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_08b_low_power_listen_tx\ex_08b_main.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_08b_low_power_listen_tx/ex_08b_main.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_08b_low_power_listen_tx\ex_08b_main.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_08b_low_power_listen_tx\ex_08b_main.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_08b_low_power_listen_tx\ex_08b_main.c
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_08b_low_power_listen_tx/ex_08b_main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_08b_low_power_listen_tx/ex_08b_main.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_08b_low_power_listen_tx\ex_08b_main.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_08b_low_power_listen_tx\ex_08b_main.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_08b_low_power_listen_tx\ex_08b_main.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_08b_low_power_listen_tx\ex_08b_main.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_08b_low_power_listen_tx/ex_08b_main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_08b_low_power_listen_tx/ex_08b_main.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_08b_low_power_listen_tx\ex_08b_main.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_08b_low_power_listen_tx\ex_08b_main.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_08b_low_power_listen_tx\ex_08b_main.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_08b_low_power_listen_tx\ex_08b_main.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_09a_bandwidth_power_ref_meas/ex_09a_main.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_09a_bandwidth_power_ref_meas/ex_09a_main.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Core/Src/examples/ex_09a_bandwidth_power_ref_meas/ex_09a_main.c
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_09a_bandwidth_power_ref_meas/ex_09a_main.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_09a_bandwidth_power_ref_meas/ex_09a_main.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_09a_bandwidth_power_ref_meas/ex_09a_main.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_09a_bandwidth_power_ref_meas\ex_09a_main.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_09a_bandwidth_power_ref_meas\ex_09a_main.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_09a_bandwidth_power_ref_meas\ex_09a_main.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_09a_bandwidth_power_ref_meas/ex_09a_main.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_09a_bandwidth_power_ref_meas\ex_09a_main.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_09a_bandwidth_power_ref_meas\ex_09a_main.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_09a_bandwidth_power_ref_meas\ex_09a_main.c
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_09a_bandwidth_power_ref_meas/ex_09a_main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_09a_bandwidth_power_ref_meas/ex_09a_main.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_09a_bandwidth_power_ref_meas\ex_09a_main.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_09a_bandwidth_power_ref_meas\ex_09a_main.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_09a_bandwidth_power_ref_meas\ex_09a_main.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_09a_bandwidth_power_ref_meas\ex_09a_main.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_09a_bandwidth_power_ref_meas/ex_09a_main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_09a_bandwidth_power_ref_meas/ex_09a_main.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_09a_bandwidth_power_ref_meas\ex_09a_main.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_09a_bandwidth_power_ref_meas\ex_09a_main.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_09a_bandwidth_power_ref_meas\ex_09a_main.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_09a_bandwidth_power_ref_meas\ex_09a_main.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_09b_bandwidth_power_comp/ex_09b_main.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_09b_bandwidth_power_comp/ex_09b_main.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Core/Src/examples/ex_09b_bandwidth_power_comp/ex_09b_main.c
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_09b_bandwidth_power_comp/ex_09b_main.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_09b_bandwidth_power_comp/ex_09b_main.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_09b_bandwidth_power_comp/ex_09b_main.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_09b_bandwidth_power_comp\ex_09b_main.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_09b_bandwidth_power_comp\ex_09b_main.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_09b_bandwidth_power_comp\ex_09b_main.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_09b_bandwidth_power_comp/ex_09b_main.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_09b_bandwidth_power_comp\ex_09b_main.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_09b_bandwidth_power_comp\ex_09b_main.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_09b_bandwidth_power_comp\ex_09b_main.c
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_09b_bandwidth_power_comp/ex_09b_main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_09b_bandwidth_power_comp/ex_09b_main.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_09b_bandwidth_power_comp\ex_09b_main.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_09b_bandwidth_power_comp\ex_09b_main.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_09b_bandwidth_power_comp\ex_09b_main.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_09b_bandwidth_power_comp\ex_09b_main.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_09b_bandwidth_power_comp/ex_09b_main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_09b_bandwidth_power_comp/ex_09b_main.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_09b_bandwidth_power_comp\ex_09b_main.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_09b_bandwidth_power_comp\ex_09b_main.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_09b_bandwidth_power_comp\ex_09b_main.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_09b_bandwidth_power_comp\ex_09b_main.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_10a_gpio/ex_10a_main.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_10a_gpio/ex_10a_main.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Core/Src/examples/ex_10a_gpio/ex_10a_main.c
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_10a_gpio/ex_10a_main.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_10a_gpio/ex_10a_main.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_10a_gpio/ex_10a_main.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_10a_gpio\ex_10a_main.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_10a_gpio\ex_10a_main.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_10a_gpio\ex_10a_main.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_10a_gpio/ex_10a_main.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_10a_gpio\ex_10a_main.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_10a_gpio\ex_10a_main.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_10a_gpio\ex_10a_main.c
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_10a_gpio/ex_10a_main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_10a_gpio/ex_10a_main.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_10a_gpio\ex_10a_main.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_10a_gpio\ex_10a_main.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_10a_gpio\ex_10a_main.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_10a_gpio\ex_10a_main.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_10a_gpio/ex_10a_main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Core/Src/examples/ex_10a_gpio/ex_10a_main.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_10a_gpio\ex_10a_main.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_10a_gpio\ex_10a_main.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\examples\ex_10a_gpio\ex_10a_main.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\examples\ex_10a_gpio\ex_10a_main.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Core/Src/gpio.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Core/Src/gpio.c
 CMakeFiles/test_dw1000.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/test_dw1000.elf.dir/Core/Src/gpio.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/gpio.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\gpio.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\gpio.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\gpio.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/gpio.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\gpio.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\gpio.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\gpio.c
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Core/Src/gpio.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\gpio.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\gpio.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\gpio.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\gpio.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Core/Src/gpio.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\gpio.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\gpio.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\gpio.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\gpio.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/i2c.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Core/Src/i2c.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Core/Src/i2c.c
 CMakeFiles/test_dw1000.elf.dir/Core/Src/i2c.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/test_dw1000.elf.dir/Core/Src/i2c.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/i2c.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\i2c.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\i2c.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\i2c.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/i2c.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\i2c.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\i2c.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\i2c.c
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/i2c.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Core/Src/i2c.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\i2c.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\i2c.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\i2c.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\i2c.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/i2c.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Core/Src/i2c.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\i2c.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\i2c.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\i2c.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\i2c.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/lcd.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Core/Src/lcd.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Core/Src/lcd.c
 CMakeFiles/test_dw1000.elf.dir/Core/Src/lcd.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/test_dw1000.elf.dir/Core/Src/lcd.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/lcd.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\lcd.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\lcd.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\lcd.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/lcd.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\lcd.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\lcd.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\lcd.c
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/lcd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Core/Src/lcd.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\lcd.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\lcd.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\lcd.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\lcd.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/lcd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Core/Src/lcd.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\lcd.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\lcd.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\lcd.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\lcd.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/main.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Core/Src/main.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Core/Src/main.c
 CMakeFiles/test_dw1000.elf.dir/Core/Src/main.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/test_dw1000.elf.dir/Core/Src/main.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/main.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\main.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\main.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\main.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/main.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\main.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\main.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\main.c
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Core/Src/main.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\main.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\main.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\main.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\main.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Core/Src/main.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\main.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\main.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\main.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\main.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/spi.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Core/Src/spi.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Core/Src/spi.c
 CMakeFiles/test_dw1000.elf.dir/Core/Src/spi.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/test_dw1000.elf.dir/Core/Src/spi.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/spi.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\spi.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\spi.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\spi.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/spi.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\spi.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\spi.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\spi.c
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/spi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Core/Src/spi.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\spi.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\spi.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\spi.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\spi.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/spi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Core/Src/spi.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\spi.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\spi.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\spi.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\spi.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Core/Src/stm32f1xx_hal_msp.c
 CMakeFiles/test_dw1000.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/test_dw1000.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\stm32f1xx_hal_msp.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\stm32f1xx_hal_msp.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\stm32f1xx_hal_msp.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\stm32f1xx_hal_msp.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\stm32f1xx_hal_msp.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\stm32f1xx_hal_msp.c
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/stm32f1xx_hal_msp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Core/Src/stm32f1xx_hal_msp.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\stm32f1xx_hal_msp.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\stm32f1xx_hal_msp.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\stm32f1xx_hal_msp.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\stm32f1xx_hal_msp.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/stm32f1xx_hal_msp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Core/Src/stm32f1xx_hal_msp.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\stm32f1xx_hal_msp.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\stm32f1xx_hal_msp.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\stm32f1xx_hal_msp.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\stm32f1xx_hal_msp.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/stm32f1xx_it.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Core/Src/stm32f1xx_it.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Core/Src/stm32f1xx_it.c
 CMakeFiles/test_dw1000.elf.dir/Core/Src/stm32f1xx_it.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/test_dw1000.elf.dir/Core/Src/stm32f1xx_it.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/stm32f1xx_it.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\stm32f1xx_it.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\stm32f1xx_it.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\stm32f1xx_it.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/stm32f1xx_it.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\stm32f1xx_it.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\stm32f1xx_it.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\stm32f1xx_it.c
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/stm32f1xx_it.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Core/Src/stm32f1xx_it.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\stm32f1xx_it.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\stm32f1xx_it.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\stm32f1xx_it.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\stm32f1xx_it.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/stm32f1xx_it.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Core/Src/stm32f1xx_it.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\stm32f1xx_it.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\stm32f1xx_it.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\stm32f1xx_it.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\stm32f1xx_it.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Core/Src/syscalls.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Core/Src/syscalls.c
 CMakeFiles/test_dw1000.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/test_dw1000.elf.dir/Core/Src/syscalls.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/syscalls.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\syscalls.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\syscalls.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\syscalls.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/syscalls.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\syscalls.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\syscalls.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\syscalls.c
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/syscalls.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Core/Src/syscalls.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\syscalls.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\syscalls.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\syscalls.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\syscalls.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/syscalls.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Core/Src/syscalls.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\syscalls.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\syscalls.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\syscalls.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\syscalls.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Core/Src/sysmem.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Core/Src/sysmem.c
 CMakeFiles/test_dw1000.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/test_dw1000.elf.dir/Core/Src/sysmem.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/sysmem.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\sysmem.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\sysmem.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\sysmem.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/sysmem.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\sysmem.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\sysmem.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\sysmem.c
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/sysmem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Core/Src/sysmem.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\sysmem.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\sysmem.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\sysmem.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\sysmem.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/sysmem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Core/Src/sysmem.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\sysmem.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\sysmem.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\sysmem.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\sysmem.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/system_stm32f1xx.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Core/Src/system_stm32f1xx.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Core/Src/system_stm32f1xx.c
 CMakeFiles/test_dw1000.elf.dir/Core/Src/system_stm32f1xx.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/test_dw1000.elf.dir/Core/Src/system_stm32f1xx.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/system_stm32f1xx.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\system_stm32f1xx.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\system_stm32f1xx.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\system_stm32f1xx.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/system_stm32f1xx.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\system_stm32f1xx.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\system_stm32f1xx.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\system_stm32f1xx.c
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/system_stm32f1xx.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Core/Src/system_stm32f1xx.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\system_stm32f1xx.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\system_stm32f1xx.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\system_stm32f1xx.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\system_stm32f1xx.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/system_stm32f1xx.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Core/Src/system_stm32f1xx.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\system_stm32f1xx.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\system_stm32f1xx.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\system_stm32f1xx.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\system_stm32f1xx.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/usart.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Core/Src/usart.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Core/Src/usart.c
 CMakeFiles/test_dw1000.elf.dir/Core/Src/usart.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/test_dw1000.elf.dir/Core/Src/usart.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/usart.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\usart.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\usart.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\usart.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Core/Src/usart.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Core\Src\usart.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Core\Src\usart.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\usart.c
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/usart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Core/Src/usart.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\usart.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\usart.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\usart.c > CMakeFiles\test_dw1000.elf.dir\Core\Src\usart.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Core/Src/usart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Core/Src/usart.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\usart.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\usart.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Src\usart.c -o CMakeFiles\test_dw1000.elf.dir\Core\Src\usart.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Core/Startup/startup_stm32f103c8tx.s
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building ASM object CMakeFiles/test_dw1000.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\test_dw1000.elf.dir\Core\Startup\startup_stm32f103c8tx.s.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Startup\startup_stm32f103c8tx.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\test_dw1000.elf.dir\Core\Startup\startup_stm32f103c8tx.s.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Startup\startup_stm32f103c8tx.s
 
 CMakeFiles/test_dw1000.elf.dir/Core/Startup/startup_stm32f103c8tx.s.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/test_dw1000.elf.dir/Core/Startup/startup_stm32f103c8tx.s.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Startup\startup_stm32f103c8tx.s > CMakeFiles\test_dw1000.elf.dir\Core\Startup\startup_stm32f103c8tx.s.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Startup\startup_stm32f103c8tx.s > CMakeFiles\test_dw1000.elf.dir\Core\Startup\startup_stm32f103c8tx.s.i
 
 CMakeFiles/test_dw1000.elf.dir/Core/Startup/startup_stm32f103c8tx.s.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/test_dw1000.elf.dir/Core/Startup/startup_stm32f103c8tx.s.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Startup\startup_stm32f103c8tx.s -o CMakeFiles\test_dw1000.elf.dir\Core\Startup\startup_stm32f103c8tx.s.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Core\Startup\startup_stm32f103c8tx.s -o CMakeFiles\test_dw1000.elf.dir\Core\Startup\startup_stm32f103c8tx.s.s
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c > CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c > CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c -o CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c -o CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c > CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c > CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c -o CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c -o CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c > CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c > CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c -o CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c -o CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c > CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c > CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c -o CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c -o CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c > CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c > CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c -o CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c -o CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c > CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c > CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c -o CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c -o CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c > CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c > CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c -o CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c -o CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c > CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c > CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c -o CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c -o CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.c
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.c > CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.c > CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.c -o CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.c -o CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c > CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c > CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c -o CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c -o CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c > CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c > CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c -o CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c -o CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c > CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c > CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c -o CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c -o CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_spi.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_spi.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_spi.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_spi.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_spi.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_spi.c
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_spi.c > CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_spi.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_spi.c > CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_spi.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_spi.c -o CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_spi.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_spi.c -o CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_spi.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c > CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c > CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c -o CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c -o CMakeFiles\test_dw1000.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/deca_device.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/deca_device.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Drivers/decadriver/deca_device.c
 CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/deca_device.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/deca_device.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/deca_device.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Drivers\decadriver\deca_device.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Drivers\decadriver\deca_device.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\decadriver\deca_device.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/deca_device.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Drivers\decadriver\deca_device.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Drivers\decadriver\deca_device.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\decadriver\deca_device.c
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/deca_device.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/deca_device.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\decadriver\deca_device.c > CMakeFiles\test_dw1000.elf.dir\Drivers\decadriver\deca_device.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\decadriver\deca_device.c > CMakeFiles\test_dw1000.elf.dir\Drivers\decadriver\deca_device.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/deca_device.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/deca_device.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\decadriver\deca_device.c -o CMakeFiles\test_dw1000.elf.dir\Drivers\decadriver\deca_device.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\decadriver\deca_device.c -o CMakeFiles\test_dw1000.elf.dir\Drivers\decadriver\deca_device.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/deca_params_init.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/deca_params_init.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Drivers/decadriver/deca_params_init.c
 CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/deca_params_init.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/deca_params_init.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/deca_params_init.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Drivers\decadriver\deca_params_init.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Drivers\decadriver\deca_params_init.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\decadriver\deca_params_init.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/deca_params_init.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Drivers\decadriver\deca_params_init.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Drivers\decadriver\deca_params_init.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\decadriver\deca_params_init.c
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/deca_params_init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/deca_params_init.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\decadriver\deca_params_init.c > CMakeFiles\test_dw1000.elf.dir\Drivers\decadriver\deca_params_init.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\decadriver\deca_params_init.c > CMakeFiles\test_dw1000.elf.dir\Drivers\decadriver\deca_params_init.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/deca_params_init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/deca_params_init.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\decadriver\deca_params_init.c -o CMakeFiles\test_dw1000.elf.dir\Drivers\decadriver\deca_params_init.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\decadriver\deca_params_init.c -o CMakeFiles\test_dw1000.elf.dir\Drivers\decadriver\deca_params_init.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/platform/deca_mutex.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/platform/deca_mutex.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Drivers/decadriver/platform/deca_mutex.c
 CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/platform/deca_mutex.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/platform/deca_mutex.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/platform/deca_mutex.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Drivers\decadriver\platform\deca_mutex.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Drivers\decadriver\platform\deca_mutex.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\decadriver\platform\deca_mutex.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/platform/deca_mutex.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Drivers\decadriver\platform\deca_mutex.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Drivers\decadriver\platform\deca_mutex.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\decadriver\platform\deca_mutex.c
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/platform/deca_mutex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/platform/deca_mutex.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\decadriver\platform\deca_mutex.c > CMakeFiles\test_dw1000.elf.dir\Drivers\decadriver\platform\deca_mutex.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\decadriver\platform\deca_mutex.c > CMakeFiles\test_dw1000.elf.dir\Drivers\decadriver\platform\deca_mutex.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/platform/deca_mutex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/platform/deca_mutex.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\decadriver\platform\deca_mutex.c -o CMakeFiles\test_dw1000.elf.dir\Drivers\decadriver\platform\deca_mutex.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\decadriver\platform\deca_mutex.c -o CMakeFiles\test_dw1000.elf.dir\Drivers\decadriver\platform\deca_mutex.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/platform/deca_range_tables.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/platform/deca_range_tables.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Drivers/decadriver/platform/deca_range_tables.c
 CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/platform/deca_range_tables.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/platform/deca_range_tables.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/platform/deca_range_tables.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Drivers\decadriver\platform\deca_range_tables.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Drivers\decadriver\platform\deca_range_tables.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\decadriver\platform\deca_range_tables.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/platform/deca_range_tables.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Drivers\decadriver\platform\deca_range_tables.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Drivers\decadriver\platform\deca_range_tables.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\decadriver\platform\deca_range_tables.c
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/platform/deca_range_tables.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/platform/deca_range_tables.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\decadriver\platform\deca_range_tables.c > CMakeFiles\test_dw1000.elf.dir\Drivers\decadriver\platform\deca_range_tables.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\decadriver\platform\deca_range_tables.c > CMakeFiles\test_dw1000.elf.dir\Drivers\decadriver\platform\deca_range_tables.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/platform/deca_range_tables.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/platform/deca_range_tables.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\decadriver\platform\deca_range_tables.c -o CMakeFiles\test_dw1000.elf.dir\Drivers\decadriver\platform\deca_range_tables.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\decadriver\platform\deca_range_tables.c -o CMakeFiles\test_dw1000.elf.dir\Drivers\decadriver\platform\deca_range_tables.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/platform/deca_sleep.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/platform/deca_sleep.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Drivers/decadriver/platform/deca_sleep.c
 CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/platform/deca_sleep.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/platform/deca_sleep.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/platform/deca_sleep.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Drivers\decadriver\platform\deca_sleep.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Drivers\decadriver\platform\deca_sleep.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\decadriver\platform\deca_sleep.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/platform/deca_sleep.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Drivers\decadriver\platform\deca_sleep.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Drivers\decadriver\platform\deca_sleep.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\decadriver\platform\deca_sleep.c
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/platform/deca_sleep.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/platform/deca_sleep.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\decadriver\platform\deca_sleep.c > CMakeFiles\test_dw1000.elf.dir\Drivers\decadriver\platform\deca_sleep.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\decadriver\platform\deca_sleep.c > CMakeFiles\test_dw1000.elf.dir\Drivers\decadriver\platform\deca_sleep.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/platform/deca_sleep.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/platform/deca_sleep.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\decadriver\platform\deca_sleep.c -o CMakeFiles\test_dw1000.elf.dir\Drivers\decadriver\platform\deca_sleep.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\decadriver\platform\deca_sleep.c -o CMakeFiles\test_dw1000.elf.dir\Drivers\decadriver\platform\deca_sleep.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/platform/deca_spi.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/platform/deca_spi.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Drivers/decadriver/platform/deca_spi.c
 CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/platform/deca_spi.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/platform/deca_spi.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/platform/deca_spi.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Drivers\decadriver\platform\deca_spi.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Drivers\decadriver\platform\deca_spi.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\decadriver\platform\deca_spi.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/platform/deca_spi.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Drivers\decadriver\platform\deca_spi.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Drivers\decadriver\platform\deca_spi.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\decadriver\platform\deca_spi.c
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/platform/deca_spi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/platform/deca_spi.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\decadriver\platform\deca_spi.c > CMakeFiles\test_dw1000.elf.dir\Drivers\decadriver\platform\deca_spi.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\decadriver\platform\deca_spi.c > CMakeFiles\test_dw1000.elf.dir\Drivers\decadriver\platform\deca_spi.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/platform/deca_spi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/platform/deca_spi.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\decadriver\platform\deca_spi.c -o CMakeFiles\test_dw1000.elf.dir\Drivers\decadriver\platform\deca_spi.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\decadriver\platform\deca_spi.c -o CMakeFiles\test_dw1000.elf.dir\Drivers\decadriver\platform\deca_spi.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/platform/port.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/platform/port.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Drivers/decadriver/platform/port.c
 CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/platform/port.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/platform/port.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/platform/port.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Drivers\decadriver\platform\port.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Drivers\decadriver\platform\port.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\decadriver\platform\port.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/platform/port.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Drivers\decadriver\platform\port.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Drivers\decadriver\platform\port.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\decadriver\platform\port.c
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/platform/port.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/platform/port.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\decadriver\platform\port.c > CMakeFiles\test_dw1000.elf.dir\Drivers\decadriver\platform\port.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\decadriver\platform\port.c > CMakeFiles\test_dw1000.elf.dir\Drivers\decadriver\platform\port.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/platform/port.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Drivers/decadriver/platform/port.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\decadriver\platform\port.c -o CMakeFiles\test_dw1000.elf.dir\Drivers\decadriver\platform\port.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\decadriver\platform\port.c -o CMakeFiles\test_dw1000.elf.dir\Drivers\decadriver\platform\port.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/dw1000/Src/calibration.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Drivers/dw1000/Src/calibration.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Drivers/dw1000/Src/calibration.c
 CMakeFiles/test_dw1000.elf.dir/Drivers/dw1000/Src/calibration.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/test_dw1000.elf.dir/Drivers/dw1000/Src/calibration.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Drivers/dw1000/Src/calibration.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Drivers\dw1000\Src\calibration.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Drivers\dw1000\Src\calibration.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\dw1000\Src\calibration.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Drivers/dw1000/Src/calibration.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Drivers\dw1000\Src\calibration.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Drivers\dw1000\Src\calibration.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\dw1000\Src\calibration.c
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/dw1000/Src/calibration.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Drivers/dw1000/Src/calibration.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\dw1000\Src\calibration.c > CMakeFiles\test_dw1000.elf.dir\Drivers\dw1000\Src\calibration.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\dw1000\Src\calibration.c > CMakeFiles\test_dw1000.elf.dir\Drivers\dw1000\Src\calibration.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/dw1000/Src/calibration.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Drivers/dw1000/Src/calibration.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\dw1000\Src\calibration.c -o CMakeFiles\test_dw1000.elf.dir\Drivers\dw1000\Src\calibration.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\dw1000\Src\calibration.c -o CMakeFiles\test_dw1000.elf.dir\Drivers\dw1000\Src\calibration.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/dw1000/Src/dw1000.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Drivers/dw1000/Src/dw1000.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Drivers/dw1000/Src/dw1000.c
 CMakeFiles/test_dw1000.elf.dir/Drivers/dw1000/Src/dw1000.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/test_dw1000.elf.dir/Drivers/dw1000/Src/dw1000.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Drivers/dw1000/Src/dw1000.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Drivers\dw1000\Src\dw1000.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Drivers\dw1000\Src\dw1000.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\dw1000\Src\dw1000.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Drivers/dw1000/Src/dw1000.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Drivers\dw1000\Src\dw1000.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Drivers\dw1000\Src\dw1000.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\dw1000\Src\dw1000.c
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/dw1000/Src/dw1000.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Drivers/dw1000/Src/dw1000.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\dw1000\Src\dw1000.c > CMakeFiles\test_dw1000.elf.dir\Drivers\dw1000\Src\dw1000.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\dw1000\Src\dw1000.c > CMakeFiles\test_dw1000.elf.dir\Drivers\dw1000\Src\dw1000.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/dw1000/Src/dw1000.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Drivers/dw1000/Src/dw1000.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\dw1000\Src\dw1000.c -o CMakeFiles\test_dw1000.elf.dir\Drivers\dw1000\Src\dw1000.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\dw1000\Src\dw1000.c -o CMakeFiles\test_dw1000.elf.dir\Drivers\dw1000\Src\dw1000.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/dw1000/Src/frame.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Drivers/dw1000/Src/frame.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Drivers/dw1000/Src/frame.c
 CMakeFiles/test_dw1000.elf.dir/Drivers/dw1000/Src/frame.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/test_dw1000.elf.dir/Drivers/dw1000/Src/frame.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Drivers/dw1000/Src/frame.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Drivers\dw1000\Src\frame.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Drivers\dw1000\Src\frame.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\dw1000\Src\frame.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Drivers/dw1000/Src/frame.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Drivers\dw1000\Src\frame.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Drivers\dw1000\Src\frame.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\dw1000\Src\frame.c
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/dw1000/Src/frame.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Drivers/dw1000/Src/frame.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\dw1000\Src\frame.c > CMakeFiles\test_dw1000.elf.dir\Drivers\dw1000\Src\frame.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\dw1000\Src\frame.c > CMakeFiles\test_dw1000.elf.dir\Drivers\dw1000\Src\frame.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/dw1000/Src/frame.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Drivers/dw1000/Src/frame.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\dw1000\Src\frame.c -o CMakeFiles\test_dw1000.elf.dir\Drivers\dw1000\Src\frame.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\dw1000\Src\frame.c -o CMakeFiles\test_dw1000.elf.dir\Drivers\dw1000\Src\frame.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/dw1000/Src/fsm.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Drivers/dw1000/Src/fsm.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Drivers/dw1000/Src/fsm.c
 CMakeFiles/test_dw1000.elf.dir/Drivers/dw1000/Src/fsm.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/test_dw1000.elf.dir/Drivers/dw1000/Src/fsm.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Drivers/dw1000/Src/fsm.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Drivers\dw1000\Src\fsm.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Drivers\dw1000\Src\fsm.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\dw1000\Src\fsm.c
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Drivers/dw1000/Src/fsm.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Drivers\dw1000\Src\fsm.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Drivers\dw1000\Src\fsm.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\dw1000\Src\fsm.c
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/dw1000/Src/fsm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Drivers/dw1000/Src/fsm.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\dw1000\Src\fsm.c > CMakeFiles\test_dw1000.elf.dir\Drivers\dw1000\Src\fsm.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\dw1000\Src\fsm.c > CMakeFiles\test_dw1000.elf.dir\Drivers\dw1000\Src\fsm.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/dw1000/Src/fsm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Drivers/dw1000/Src/fsm.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\dw1000\Src\fsm.c -o CMakeFiles\test_dw1000.elf.dir\Drivers\dw1000\Src\fsm.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\dw1000\Src\fsm.c -o CMakeFiles\test_dw1000.elf.dir\Drivers\dw1000\Src\fsm.c.s
+
+CMakeFiles/test_dw1000.elf.dir/Drivers/pc_connection/pc_protocol.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
+CMakeFiles/test_dw1000.elf.dir/Drivers/pc_connection/pc_protocol.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Drivers/pc_connection/pc_protocol.c
+CMakeFiles/test_dw1000.elf.dir/Drivers/pc_connection/pc_protocol.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/test_dw1000.elf.dir/Drivers/pc_connection/pc_protocol.c.obj"
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Drivers/pc_connection/pc_protocol.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Drivers\pc_connection\pc_protocol.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Drivers\pc_connection\pc_protocol.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\pc_connection\pc_protocol.c
+
+CMakeFiles/test_dw1000.elf.dir/Drivers/pc_connection/pc_protocol.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Drivers/pc_connection/pc_protocol.c.i"
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\pc_connection\pc_protocol.c > CMakeFiles\test_dw1000.elf.dir\Drivers\pc_connection\pc_protocol.c.i
+
+CMakeFiles/test_dw1000.elf.dir/Drivers/pc_connection/pc_protocol.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Drivers/pc_connection/pc_protocol.c.s"
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\pc_connection\pc_protocol.c -o CMakeFiles\test_dw1000.elf.dir\Drivers\pc_connection\pc_protocol.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/terminal/lwshell.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Drivers/terminal/lwshell.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Drivers/terminal/lwshell.c
 CMakeFiles/test_dw1000.elf.dir/Drivers/terminal/lwshell.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/test_dw1000.elf.dir/Drivers/terminal/lwshell.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Drivers/terminal/lwshell.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Drivers\terminal\lwshell.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Drivers\terminal\lwshell.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\terminal\lwshell.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/test_dw1000.elf.dir/Drivers/terminal/lwshell.c.obj"
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Drivers/terminal/lwshell.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Drivers\terminal\lwshell.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Drivers\terminal\lwshell.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\terminal\lwshell.c
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/terminal/lwshell.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Drivers/terminal/lwshell.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\terminal\lwshell.c > CMakeFiles\test_dw1000.elf.dir\Drivers\terminal\lwshell.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\terminal\lwshell.c > CMakeFiles\test_dw1000.elf.dir\Drivers\terminal\lwshell.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/terminal/lwshell.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Drivers/terminal/lwshell.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\terminal\lwshell.c -o CMakeFiles\test_dw1000.elf.dir\Drivers\terminal\lwshell.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\terminal\lwshell.c -o CMakeFiles\test_dw1000.elf.dir\Drivers\terminal\lwshell.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/terminal/platform/terminal.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Drivers/terminal/platform/terminal.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Drivers/terminal/platform/terminal.c
 CMakeFiles/test_dw1000.elf.dir/Drivers/terminal/platform/terminal.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/test_dw1000.elf.dir/Drivers/terminal/platform/terminal.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Drivers/terminal/platform/terminal.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Drivers\terminal\platform\terminal.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Drivers\terminal\platform\terminal.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\terminal\platform\terminal.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/test_dw1000.elf.dir/Drivers/terminal/platform/terminal.c.obj"
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Drivers/terminal/platform/terminal.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Drivers\terminal\platform\terminal.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Drivers\terminal\platform\terminal.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\terminal\platform\terminal.c
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/terminal/platform/terminal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Drivers/terminal/platform/terminal.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\terminal\platform\terminal.c > CMakeFiles\test_dw1000.elf.dir\Drivers\terminal\platform\terminal.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\terminal\platform\terminal.c > CMakeFiles\test_dw1000.elf.dir\Drivers\terminal\platform\terminal.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/terminal/platform/terminal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Drivers/terminal/platform/terminal.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\terminal\platform\terminal.c -o CMakeFiles\test_dw1000.elf.dir\Drivers\terminal\platform\terminal.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\terminal\platform\terminal.c -o CMakeFiles\test_dw1000.elf.dir\Drivers\terminal\platform\terminal.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/tests/tests.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Drivers/tests/tests.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Drivers/tests/tests.c
 CMakeFiles/test_dw1000.elf.dir/Drivers/tests/tests.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/test_dw1000.elf.dir/Drivers/tests/tests.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Drivers/tests/tests.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Drivers\tests\tests.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Drivers\tests\tests.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\tests\tests.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/test_dw1000.elf.dir/Drivers/tests/tests.c.obj"
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Drivers/tests/tests.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Drivers\tests\tests.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Drivers\tests\tests.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\tests\tests.c
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/tests/tests.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Drivers/tests/tests.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\tests\tests.c > CMakeFiles\test_dw1000.elf.dir\Drivers\tests\tests.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\tests\tests.c > CMakeFiles\test_dw1000.elf.dir\Drivers\tests\tests.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/tests/tests.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Drivers/tests/tests.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\tests\tests.c -o CMakeFiles\test_dw1000.elf.dir\Drivers\tests\tests.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\tests\tests.c -o CMakeFiles\test_dw1000.elf.dir\Drivers\tests\tests.c.s
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/utils.c.obj: CMakeFiles/test_dw1000.elf.dir/flags.make
 CMakeFiles/test_dw1000.elf.dir/Drivers/utils.c.obj: C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/Drivers/utils.c
 CMakeFiles/test_dw1000.elf.dir/Drivers/utils.c.obj: CMakeFiles/test_dw1000.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/test_dw1000.elf.dir/Drivers/utils.c.obj"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Drivers/utils.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Drivers\utils.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Drivers\utils.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/test_dw1000.elf.dir/Drivers/utils.c.obj"
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_dw1000.elf.dir/Drivers/utils.c.obj -MF CMakeFiles\test_dw1000.elf.dir\Drivers\utils.c.obj.d -o CMakeFiles\test_dw1000.elf.dir\Drivers\utils.c.obj -c C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\utils.c
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_dw1000.elf.dir/Drivers/utils.c.i"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\utils.c > CMakeFiles\test_dw1000.elf.dir\Drivers\utils.c.i
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\utils.c > CMakeFiles\test_dw1000.elf.dir\Drivers\utils.c.i
 
 CMakeFiles/test_dw1000.elf.dir/Drivers/utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_dw1000.elf.dir/Drivers/utils.c.s"
-	C:\PROGRA~2\ARMGNU~1\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\utils.c -o CMakeFiles\test_dw1000.elf.dir\Drivers\utils.c.s
+	C:\ST\STM32CubeCLT_1.18.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\Drivers\utils.c -o CMakeFiles\test_dw1000.elf.dir\Drivers\utils.c.s
 
 # Object files for target test_dw1000.elf
 test_dw1000_elf_OBJECTS = \
@@ -1100,6 +1114,7 @@ test_dw1000_elf_OBJECTS = \
 "CMakeFiles/test_dw1000.elf.dir/Drivers/dw1000/Src/dw1000.c.obj" \
 "CMakeFiles/test_dw1000.elf.dir/Drivers/dw1000/Src/frame.c.obj" \
 "CMakeFiles/test_dw1000.elf.dir/Drivers/dw1000/Src/fsm.c.obj" \
+"CMakeFiles/test_dw1000.elf.dir/Drivers/pc_connection/pc_protocol.c.obj" \
 "CMakeFiles/test_dw1000.elf.dir/Drivers/terminal/lwshell.c.obj" \
 "CMakeFiles/test_dw1000.elf.dir/Drivers/terminal/platform/terminal.c.obj" \
 "CMakeFiles/test_dw1000.elf.dir/Drivers/tests/tests.c.obj" \
@@ -1173,6 +1188,7 @@ test_dw1000.elf: CMakeFiles/test_dw1000.elf.dir/Drivers/dw1000/Src/calibration.c
 test_dw1000.elf: CMakeFiles/test_dw1000.elf.dir/Drivers/dw1000/Src/dw1000.c.obj
 test_dw1000.elf: CMakeFiles/test_dw1000.elf.dir/Drivers/dw1000/Src/frame.c.obj
 test_dw1000.elf: CMakeFiles/test_dw1000.elf.dir/Drivers/dw1000/Src/fsm.c.obj
+test_dw1000.elf: CMakeFiles/test_dw1000.elf.dir/Drivers/pc_connection/pc_protocol.c.obj
 test_dw1000.elf: CMakeFiles/test_dw1000.elf.dir/Drivers/terminal/lwshell.c.obj
 test_dw1000.elf: CMakeFiles/test_dw1000.elf.dir/Drivers/terminal/platform/terminal.c.obj
 test_dw1000.elf: CMakeFiles/test_dw1000.elf.dir/Drivers/tests/tests.c.obj
@@ -1180,7 +1196,7 @@ test_dw1000.elf: CMakeFiles/test_dw1000.elf.dir/Drivers/utils.c.obj
 test_dw1000.elf: CMakeFiles/test_dw1000.elf.dir/build.make
 test_dw1000.elf: CMakeFiles/test_dw1000.elf.dir/objects1.rsp
 test_dw1000.elf: CMakeFiles/test_dw1000.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Linking C executable test_dw1000.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\SoloPCW\Desktop\UWB\workspace_1.17.0\test_dw1000\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Linking C executable test_dw1000.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\test_dw1000.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/cmake-build-debug/test_dw1000.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building C:/Users/SoloPCW/Desktop/UWB/workspace_1.17.0/test_dw1000/cmake-build-debug/test_dw1000.bin"

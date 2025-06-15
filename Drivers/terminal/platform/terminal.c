@@ -6,6 +6,8 @@
 #include "terminal.h"
 
 char terminal_input_buffer[MAX_TERMINAL_INPUT_BUFFER_SIZE] = {0};
+volatile uint16_t terminal_input_buffer_size = 0;
+volatile uint8_t terminal_rx_done = 0;
 terminal_settings_t terminal_settings;
 
 /**
@@ -15,24 +17,18 @@ terminal_settings_t terminal_settings;
  * \return Статус завершения
  */
 terminal_driver_status_t
-terminal_print(uint8_t *str, uint16_t len) {
+terminal_print(uint8_t* str, uint16_t len) {
     if (str == NULL || len == 0) {
         return TERMINAL_DRIVER_NULL_ARGUMENT;
     }
 
     HAL_StatusTypeDef hal_status = HAL_UART_Transmit(&huart1, str, len, 100);
 
-    while (HAL_UART_GetState(&huart1) != HAL_UART_STATE_READY) {};
-
     switch (hal_status) {
-        case HAL_OK:
-            return TERMINAL_DRIVER_OK;
-        case HAL_ERROR:
-            return TERMINAL_DRIVER_ERROR;
-        case HAL_BUSY:
-            return TERMINAL_DRIVER_BUSY;
-        case HAL_TIMEOUT:
-            return TERMINAL_DRIVER_TIMEOUT;
+        case HAL_OK: return TERMINAL_DRIVER_OK;
+        case HAL_ERROR: return TERMINAL_DRIVER_ERROR;
+        case HAL_BUSY: return TERMINAL_DRIVER_BUSY;
+        case HAL_TIMEOUT: return TERMINAL_DRIVER_TIMEOUT;
     }
 }
 
@@ -43,7 +39,7 @@ terminal_print(uint8_t *str, uint16_t len) {
  * \return Статус завершения
  */
 terminal_driver_status_t
-terminal_scan(uint8_t *str, uint16_t max_len) {
+terminal_scan(uint8_t* str, uint16_t max_len) {
 
     if (str == NULL || max_len == 0) {
         return TERMINAL_DRIVER_NULL_ARGUMENT;
@@ -51,17 +47,11 @@ terminal_scan(uint8_t *str, uint16_t max_len) {
 
     HAL_StatusTypeDef hal_status = HAL_UARTEx_ReceiveToIdle_IT(&huart1, str, max_len);
 
-    while (HAL_UART_GetState(&huart1) != HAL_UART_STATE_READY) {};
-
     switch (hal_status) {
-        case HAL_OK:
-            return TERMINAL_DRIVER_OK;
-        case HAL_ERROR:
-            return TERMINAL_DRIVER_ERROR;
-        case HAL_BUSY:
-            return TERMINAL_DRIVER_BUSY;
-        case HAL_TIMEOUT:
-            return TERMINAL_DRIVER_TIMEOUT;
+        case HAL_OK: return TERMINAL_DRIVER_OK;
+        case HAL_ERROR: return TERMINAL_DRIVER_ERROR;
+        case HAL_BUSY: return TERMINAL_DRIVER_BUSY;
+        case HAL_TIMEOUT: return TERMINAL_DRIVER_TIMEOUT;
     }
 }
 
@@ -79,8 +69,8 @@ terminal_settings_init(void) {
  * \param lwobj LwSHELL объект
  */
 void
-terminal_function_output(const char *str, struct lwshell *lwobj) {
-    terminal_print((uint8_t *) str, strlen(str));
+terminal_function_output(const char* str, struct lwshell* lwobj) {
+    terminal_print((uint8_t*)str, strlen(str));
 }
 
 /**

@@ -55,27 +55,27 @@ void port_set_deca_isr(port_deca_isr_t deca_isr);
 
 #define USB_SUPPORT
 
-typedef struct
-{
-    uint16_t        usblen;                 /**< for RX from USB */
-    uint8_t         usbbuf[BUF_SIZE*3];     /**< for RX from USB */
-}__packed app_t;
+typedef struct {
+    uint16_t usblen;              /**< for RX from USB */
+    uint8_t usbbuf[BUF_SIZE * 3]; /**< for RX from USB */
+}
+    __packed app_t;
 
 
-extern app_t    app;
+extern app_t app;
 
 
-/*****************************************************************************************************************//*
+/*****************************************************************************************************************/ /*
 **/
 
- /****************************************************************************//**
+/****************************************************************************/ /**
   *
   *                                 Types definitions
   *
   *******************************************************************************/
-typedef uint64_t        uint64 ;
+typedef uint64_t uint64;
 
-typedef int64_t         int64 ;
+typedef int64_t int64;
 
 
 #ifndef FALSE
@@ -86,14 +86,13 @@ typedef int64_t         int64 ;
 #define TRUE                1
 #endif
 
-typedef enum
-{
+typedef enum {
     LED_1,
     LED_2,
     LED_ALL,
 } led_t;
 
-/****************************************************************************//**
+/****************************************************************************/ /**
  *
  *                              MACRO
  *
@@ -101,7 +100,7 @@ typedef enum
 
 
 #if !(EXTI9_5_IRQn)
-#define DECAIRQ_EXTI_IRQn       (23)
+#define     DECAIRQ_EXTI_IRQn       (23)
 #else
 #define DECAIRQ_EXTI_IRQn       (EXTI9_5_IRQn)
 #endif
@@ -109,7 +108,6 @@ typedef enum
 #if !(EXTI0_IRQn)
 #define EXTI0_IRQn      (6)
 #endif
-
 
 
 #define DW1000_RSTn                 DW_RESET_Pin
@@ -133,7 +131,7 @@ typedef enum
 #define TA_SW1_8                    GPIO_PIN_5
 #define TA_SW1_GPIO                 GPIOC
 
-/****************************************************************************//**
+/****************************************************************************/ /**
  *
  *                              MACRO function
  *
@@ -152,7 +150,7 @@ typedef enum
 #define port_SPIy_set_chip_select()     HAL_GPIO_WritePin(LCD_NSS_GPIO_Port, LCD_NSS_Pin, GPIO_PIN_SET)
 #define port_SPIy_clear_chip_select()   HAL_GPIO_WritePin(LCD_NSS_GPIO_Port, LCD_NSS_Pin, GPIO_PIN_RESET)
 
-/****************************************************************************//**
+/****************************************************************************/ /**
  *
  *                              port function prototypes
  *
@@ -180,7 +178,7 @@ void process_deca_irq(void);
 void led_on(led_t led);
 void led_off(led_t led);
 
-int  peripherals_init(void);
+int peripherals_init(void);
 void spi_peripheral_init(void);
 
 void setup_DW1000RSTnIRQ(int enable);
@@ -194,8 +192,8 @@ uint32_t port_GetEXT_IRQStatus(void);
 uint32_t port_CheckEXT_IRQ(void);
 void port_DisableEXT_IRQ(void);
 void port_EnableEXT_IRQ(void);
-extern uint32_t     HAL_GetTick(void);
-HAL_StatusTypeDef   flush_report_buff(void);
+extern uint32_t HAL_GetTick(void);
+HAL_StatusTypeDef flush_report_buff(void);
 
 #ifdef __cplusplus
 }
@@ -211,7 +209,7 @@ HAL_StatusTypeDef   flush_report_buff(void);
 #define _LINUX_CIRC_BUF_H 1
 
 struct circ_buf {
-    char *buf;
+    char* buf;
     int head;
     int tail;
 };

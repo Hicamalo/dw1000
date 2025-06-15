@@ -128,6 +128,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/test_dw1000.elf.dir/Drivers/dw1000/Src/frame.c.obj.d"
   "CMakeFiles/test_dw1000.elf.dir/Drivers/dw1000/Src/fsm.c.obj"
   "CMakeFiles/test_dw1000.elf.dir/Drivers/dw1000/Src/fsm.c.obj.d"
+  "CMakeFiles/test_dw1000.elf.dir/Drivers/pc_connection/pc_protocol.c.obj"
+  "CMakeFiles/test_dw1000.elf.dir/Drivers/pc_connection/pc_protocol.c.obj.d"
   "CMakeFiles/test_dw1000.elf.dir/Drivers/terminal/lwshell.c.obj"
   "CMakeFiles/test_dw1000.elf.dir/Drivers/terminal/lwshell.c.obj.d"
   "CMakeFiles/test_dw1000.elf.dir/Drivers/terminal/platform/terminal.c.obj"
