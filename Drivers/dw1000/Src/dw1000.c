@@ -118,10 +118,6 @@ configure_dw1000(void) {
     dwt_configure(&config);
     dwt_setleds(1); /* Включить системные светодиоды (RX - красный, TX - синий) */
 
-    /* Возможно придется восстанавливать предыдущий panid, так как у tag и anchor он разный */
-    //dwt_setpanid(0);
-    //dwt_enableframefilter(DWT_FF_DATA_EN);
-
     return TRUE;
 }
 

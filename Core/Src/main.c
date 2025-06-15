@@ -109,8 +109,6 @@ main(void) {
     initialise_dw1000();
     configure_dw1000();
 
-    i2c_lcd1602_init(TRUE, LCD_NUM_ROWS, LCD_NUM_COLUMNS, LCD_NUM_VISIBLE_COLUMNS);
-
 #if MODE == TAG
     dwt_setrxantennadelay(TAG_RX_ANT_DLY_DTU);
     dwt_settxantennadelay(TAG_TX_ANT_DLY_DTU);
@@ -130,8 +128,6 @@ main(void) {
     source_address = ANCHOR_3;
 #elif MODE == ANCHOR_4
     source_address = ANCHOR_4;
-#elif MODE == DEV
-    source_address = DEV;
 #endif
 
     /* USER CODE END 2 */
